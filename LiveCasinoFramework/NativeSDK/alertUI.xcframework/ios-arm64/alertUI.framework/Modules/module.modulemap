@@ -1,0 +1,11 @@
+framework module alertUI {
+  umbrella header "alertUI.h"
+  export *
+
+  module * { export * }
+}
+
+module alertUI.Swift {
+  header "platformUI-Swift.h"
+  requires objc
+}

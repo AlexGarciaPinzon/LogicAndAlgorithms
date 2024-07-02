@@ -1,0 +1,579 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Tools",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RegexMatcher",
+        "printedName": "RegexMatcher",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "RegexExpressions",
+            "printedName": "RegexExpressions",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "regex_pasToken",
+                "printedName": "regex_pasToken",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Tools.RegexMatcher.RegexExpressions.Type) -> Tools.RegexMatcher.RegexExpressions",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RegexExpressions",
+                        "printedName": "Tools.RegexMatcher.RegexExpressions",
+                        "usr": "s:5Tools12RegexMatcherC0B11ExpressionsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Tools.RegexMatcher.RegexExpressions.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RegexExpressions",
+                            "printedName": "Tools.RegexMatcher.RegexExpressions",
+                            "usr": "s:5Tools12RegexMatcherC0B11ExpressionsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5Tools12RegexMatcherC0B11ExpressionsO14regex_pasTokenyA2EmF",
+                "mangledName": "$s5Tools12RegexMatcherC0B11ExpressionsO14regex_pasTokenyA2EmF",
+                "moduleName": "Tools",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "groupKeys",
+                "printedName": "groupKeys()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:5Tools12RegexMatcherC0B11ExpressionsO9groupKeysSaySSGyF",
+                "mangledName": "$s5Tools12RegexMatcherC0B11ExpressionsO9groupKeysSaySSGyF",
+                "moduleName": "Tools",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Tools.RegexMatcher.RegexExpressions?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RegexExpressions",
+                        "printedName": "Tools.RegexMatcher.RegexExpressions",
+                        "usr": "s:5Tools12RegexMatcherC0B11ExpressionsO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:5Tools12RegexMatcherC0B11ExpressionsO8rawValueAESgSS_tcfc",
+                "mangledName": "$s5Tools12RegexMatcherC0B11ExpressionsO8rawValueAESgSS_tcfc",
+                "moduleName": "Tools",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:5Tools12RegexMatcherC0B11ExpressionsO8rawValueSSvp",
+                "mangledName": "$s5Tools12RegexMatcherC0B11ExpressionsO8rawValueSSvp",
+                "moduleName": "Tools",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:5Tools12RegexMatcherC0B11ExpressionsO8rawValueSSvg",
+                    "mangledName": "$s5Tools12RegexMatcherC0B11ExpressionsO8rawValueSSvg",
+                    "moduleName": "Tools",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:5Tools12RegexMatcherC0B11ExpressionsO",
+            "mangledName": "$s5Tools12RegexMatcherC0B11ExpressionsO",
+            "moduleName": "Tools",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "match",
+            "printedName": "match(with:in:keys:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RegexExpressions",
+                "printedName": "Tools.RegexMatcher.RegexExpressions",
+                "usr": "s:5Tools12RegexMatcherC0B11ExpressionsO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Tools12RegexMatcherC5match4with2in4keysSDySSypSgGAC0B11ExpressionsO_SSSaySSGtFZ",
+            "mangledName": "$s5Tools12RegexMatcherC5match4with2in4keysSDySSypSgGAC0B11ExpressionsO_SSSaySSGtFZ",
+            "moduleName": "Tools",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5Tools12RegexMatcherC",
+        "mangledName": "$s5Tools12RegexMatcherC",
+        "moduleName": "Tools",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "Tools",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKLogger",
+        "printedName": "SDKLogger",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(event:level:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PTLoggerTags",
+                "printedName": "Tools.PTLoggerTags",
+                "usr": "c:@E@PTLoggerTags"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OSLogType",
+                "printedName": "os.OSLogType",
+                "usr": "c:@EA@os_log_type_t"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Tools@objc(cs)SDKLogger(cm)logWithEvent:level:message:",
+            "mangledName": "$s5Tools9SDKLoggerC3log5event5level7messageySo12PTLoggerTagsV_So03os_C7_type_taSStFZ",
+            "moduleName": "Tools",
+            "static": true,
+            "objc_name": "logWithEvent:level:message:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Tools@objc(cs)SDKLogger",
+        "mangledName": "$s5Tools9SDKLoggerC",
+        "moduleName": "Tools",
+        "intro_iOS": "14.0",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "Available"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Logger",
+        "printedName": "Logger",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(category:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Logger",
+                "printedName": "os.Logger",
+                "usr": "s:2os6LoggerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:2os6LoggerV5ToolsE8categoryACSS_tcfc",
+            "mangledName": "$s2os6LoggerV5ToolsE8categoryACSS_tcfc",
+            "moduleName": "Tools",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:2os6LoggerV",
+        "mangledName": "$s2os6LoggerV",
+        "moduleName": "os",
+        "intro_Macosx": "11.0",
+        "intro_iOS": "14.0",
+        "intro_tvOS": "14.0",
+        "intro_watchOS": "7.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/Tools\/Tools\/RegexMatcher\/RegexMatcher.swift",
+      "kind": "StringLiteral",
+      "offset": 517,
+      "length": 49,
+      "value": "\"(?<match>\\{pas_token:GamePlay:(?<id>[\\d]+)\\})\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/Tools\/Tools\/RegexMatcher\/RegexMatcher.swift",
+      "kind": "Array",
+      "offset": 705,
+      "length": 15,
+      "value": "[\"id\", \"match\"]"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/Tools\/Tools\/RegexMatcher\/RegexMatcher.swift",
+      "kind": "StringLiteral",
+      "offset": 517,
+      "length": 49,
+      "value": "\"(?<match>\\{pas_token:GamePlay:(?<id>[\\d]+)\\})\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/Tools\/Tools\/RegexMatcher\/RegexMatcher.swift",
+      "kind": "StringLiteral",
+      "offset": 1351,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/Tools\/Tools\/RegexMatcher\/RegexMatcher.swift",
+      "kind": "Array",
+      "offset": 1567,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/Tools\/Tools\/RegexMatcher\/RegexMatcher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1634,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/Tools\/Tools\/PTLogger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 456,
+      "length": 5,
+      "value": "\"api\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/Tools\/Tools\/PTLogger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 505,
+      "length": 9,
+      "value": "\"network\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/Tools\/Tools\/PTLogger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 557,
+      "length": 8,
+      "value": "\"socket\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/Tools\/Tools\/PTLogger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 610,
+      "length": 10,
+      "value": "\"download\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/Tools\/Tools\/PTLogger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 662,
+      "length": 7,
+      "value": "\"html5\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/Tools\/Tools\/PTLogger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1635,
+      "length": 12,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/Tools\/Tools\/PTLogger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1646,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/Tools\/Tools\/PTLogger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1885,
+      "length": 11,
+      "value": "\"NativeSDK\""
+    }
+  ]
+}

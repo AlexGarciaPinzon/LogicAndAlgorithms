@@ -1,0 +1,371 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name platformUI
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CommonUI
+import DeveloperToolsSupport
+import Foundation
+import ImageKit
+import Middle
+import Tools.PTSDKInternalEnums
+import resources.PTUImage
+import Swift
+import SwiftUI
+import Tools
+import Translations
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import alertUI
+@_exported import platformUI
+import resources
+@objc public protocol GameLoadingViewModelUIDelegate : platformUI.SceneViewModelUIDelegate {
+  @objc func showLoadingView()
+  @objc func hideLoadingView()
+  @objc func startAnimation()
+  @objc func stopAnimation()
+  @objc func hideText()
+  @objc func updateProgress(_ progress: Swift.Double)
+  @objc func applySceneStyle(_ objectStyleResourceWrapper: platformUI.PTUResourceObjectStyleGameLoadingWrapper)
+}
+public protocol GameMenuButtonSceneOutputDelegate : AnyObject {
+  func performAction(_ action: platformUI.GameMenuButtonSceneOutput.Action)
+}
+@objc @_inheritsConvenienceInitializers public class GameMenuButtonSceneOutput : ObjectiveC.NSObject {
+  public enum Action {
+    case openGameMenu
+    public static func == (a: platformUI.GameMenuButtonSceneOutput.Action, b: platformUI.GameMenuButtonSceneOutput.Action) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class PTUResourceObjectStyleGameLoadingWrapper : ObjectiveC.NSObject {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class PTUResourceObjectStyleGameLoading : CommonUI.PTUResourceObjectStyle<CommonUI.PTUStyleGameUICommon, Swift.AnyObject> {
+  @objc deinit
+}
+public protocol TimerPanelSceneOutputDelegate : AnyObject {
+  func performAction(_ action: platformUI.TimerPanelSceneOutput.Action)
+}
+@objc @_inheritsConvenienceInitializers public class TimerPanelSceneOutput : ObjectiveC.NSObject {
+  public enum Action {
+    case openUrlTemplate(Swift.String)
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class PTUResourceObjectStyleWrapper : ObjectiveC.NSObject {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class PTUResourceObjectStyleTimerPanel : CommonUI.PTUResourceObjectStyle<CommonUI.PTUStyleLoginTimerPanel, Swift.AnyObject> {
+  @objc deinit
+}
+@objc public enum SessionPanelElementType : Swift.Int {
+  case clock
+  case sessionTimer
+  case date
+  case all
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol SessionTimerPanelViewModelUIDelegate : platformUI.SceneViewModelUIDelegate {
+  @objc func show()
+  @objc func dismiss()
+  @objc func showLabelValueOnly(_ value: Swift.Bool)
+  @objc func updateTime(_ dateString: Swift.String)
+  @objc func updateSessionTime(_ dateString: Swift.String)
+  @objc func updateDate(_ dateString: Swift.String)
+  @objc func setStyle(_ style: CommonUI.PTUStyleSessionPanel)
+  @objc func setSessionPanelElementType(type: platformUI.SessionPanelElementType, style: platformUI.PTUStyleResourceSessionPanelWrapper)
+}
+extension platformUI.PlatformRouter : platformUI.GameMenuSceneOutputDelegate {
+  public func performAction(_ action: platformUI.GameMenuSceneOutput.Action)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class HelpsWebView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension platformUI.HelpsWebView : platformUI.SceneView {
+  @_Concurrency.MainActor(unsafe) @objc final public func willAppearOnPlatformLayer()
+  @_Concurrency.MainActor(unsafe) @objc final public func didAppearOnPlatformLayer()
+}
+public protocol PlatformActionable : ObjectiveC.NSObjectProtocol {
+  func openDeposite()
+  func openAnotherGame(gameCode: Swift.String)
+  func open(url: Foundation.URL, title: Swift.String?)
+  func openTemplate(_ templateUrl: Swift.String, title: Swift.String?)
+  func prepareToBeClosed(_ completion: (() -> Swift.Void)?)
+}
+@objc open class Platform : ObjectiveC.NSObject {
+  @objc public init?(middleLayerController: Middle.PTUMiddleLayerController, gameEngineAndView: Middle.PTUGameEngineGameAndView, commonUIConfig: [Swift.String : Any], gameUIConfig: [Swift.String : Any], stylesUIConfig: [Swift.String : Any], gameMenuButtonsModelConfig: [Swift.String : Any])
+  public func finish(_ completion: (() -> Swift.Void)? = nil)
+  @objc public func prepareToBeClosed(_ completion: (() -> Swift.Void)? = nil)
+  @objc deinit
+}
+extension platformUI.Platform : platformUI.PlatformActionable {
+  public func openDeposite()
+  public func openAnotherGame(gameCode: Swift.String)
+  @objc dynamic public func open(url: Foundation.URL, title: Swift.String? = nil)
+  @objc dynamic public func openTemplate(_ templateUrl: Swift.String, title: Swift.String?)
+}
+@objc public protocol GameMenuViewModelUIDelegate : platformUI.SceneViewModelUIDelegate {
+  @objc func updateSoundState(value: Swift.Bool, viewModel: platformUI.GameMenuViewModel)
+  @objc func updateHandedness(value: platformUI.PTUGameMenuHandednessType, viewModel: platformUI.GameMenuViewModel)
+  @objc func updateFreeSpinCount(value: Swift.UInt64, viewModel: platformUI.GameMenuViewModel)
+  @objc func updateGoldenChipCount(value: Swift.UInt64, viewModel: platformUI.GameMenuViewModel)
+  @objc func setupStyle(_ style: CommonUI.PTUStyleGameUIMenu)
+  @objc func reloadData()
+}
+extension platformUI.PlatformRouter : platformUI.GameMenuButtonSceneOutputDelegate {
+  public func performAction(_ action: platformUI.GameMenuButtonSceneOutput.Action)
+}
+public protocol GameMenuSceneOutputDelegate : AnyObject {
+  func performAction(_ action: platformUI.GameMenuSceneOutput.Action)
+}
+@objc @_inheritsConvenienceInitializers public class GameMenuSceneOutput : ObjectiveC.NSObject {
+  public enum Action {
+    case showHelp
+    case closeGameMenu
+    case openUrl(url: Foundation.URL, title: Swift.String?)
+    case openTamplateUrl(url: Swift.String, title: Swift.String?)
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class PTUResourceObjectStyleGCNotificationWrapper : ObjectiveC.NSObject {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class PTUResourceObjectStyleGCNotification : CommonUI.PTUResourceObjectStyle<CommonUI.PTUStyleGameUICommon, Swift.AnyObject> {
+  @objc deinit
+}
+public protocol PlatformRouterActions {
+  func requestLayerShowing(_ layerIdentifire: platformUI.PlatformSceneIdentifier) -> platformUI.PlatformRouter.ViewShowingResponse
+  func hideLayer(_ layerIdentifire: platformUI.PlatformSceneIdentifier)
+}
+@objc @_hasMissingDesignatedInitializers public class PlatformRouter : ObjectiveC.NSObject, platformUI.PlatformRouterActions {
+  @discardableResult
+  public func requestLayerShowing(_ layerIdentifire: platformUI.PlatformSceneIdentifier) -> platformUI.PlatformRouter.ViewShowingResponse
+  public func hideLayer(_ layerIdentifire: platformUI.PlatformSceneIdentifier)
+  @objc deinit
+}
+extension platformUI.PlatformRouter {
+  public enum ViewShowingResponse {
+    case success
+    case error(platformUI.PlatformRouter.ViewShowingError)
+  }
+  public struct ViewShowingError : Swift.Error {
+  }
+}
+extension platformUI.Platform : Middle.PTUEnhancedMessageButtonActionHandler {
+  @objc dynamic public func enhancedMessageButtonAction(_ buttonAction: Middle.PTUEnhancedMessageButtonAction, openAnotherGameWithGameCode gameCode: Swift.String)
+  @objc dynamic public func enhancedMessageButtonAction(_ buttonAction: Middle.PTUEnhancedMessageButtonAction, open url: Foundation.URL)
+  @objc dynamic public func enhancedMessageButtonAction(_ buttonAction: Middle.PTUEnhancedMessageButtonAction, openDepositWithCloseGame shouldCloseGame: Swift.Bool)
+}
+extension platformUI.Platform : platformUI.GameUIOutputDelegate {
+  public func performAction(_ action: platformUI.GameUIOutput.Action)
+}
+@_hasMissingDesignatedInitializers @objc public class PTUResourceObjectStyleAutoplayLimitsWrapper : ObjectiveC.NSObject {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class PTUResourceObjectStyleAutoplayLimits : CommonUI.PTUResourceObjectStyle<CommonUI.PTUStyleGameUIAutoplayLimits, Swift.AnyObject> {
+  @objc deinit
+}
+@objc public protocol BottomPanelViewModelUIDelegate : platformUI.SceneViewModelUIDelegate {
+  @objc func setBalanceLabelStyle(_ resourceStyle: CommonUI.PTUResourceObjectStyleButton)
+  @objc func setGameModeLabelStyle(_ style: CommonUI.PTUStyleLabel)
+  @objc func setLogoImageStyle(_ resourceStyle: CommonUI.PTUResourceObjectStyleImageView)
+  @objc func setGameMode(_ mode: Tools.PTSDKGameMode)
+  @objc func setDynamicBalance(_ dynamicBalance: Swift.String)
+  @objc func didChangeBottomBarVisibility(_ bottomBarVisible: Swift.Bool)
+}
+public protocol GameLoadingOutputDelegate : AnyObject {
+  func performAction(_ action: platformUI.GameLoadingOutput.Action)
+}
+@objc @_inheritsConvenienceInitializers public class GameLoadingOutput : ObjectiveC.NSObject {
+  public enum Action {
+    case didFinishLoadingGame
+    public static func == (a: platformUI.GameLoadingOutput.Action, b: platformUI.GameLoadingOutput.Action) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol SceneViewModelUIDelegate {
+}
+public enum PlatformSceneIdentifier : Swift.Int, Swift.CaseIterable {
+  case help
+  case inGameMenu
+  case denmarkTopPanel
+  case clock
+  case loading
+  case overMenuButtonPopups
+  case inGameMenuButton
+  case goldenChipReceivingNotification
+  case underMenuButtonPopups
+  case topPanel
+  case bottomPanel
+  case youWinBottomMessage
+  case betLimitTips
+  case totalBetOnPositionTip
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [platformUI.PlatformSceneIdentifier]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [platformUI.PlatformSceneIdentifier] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers public class GameMenuViewModel : ObjectiveC.NSObject {
+  @objc public var output: platformUI.GameMenuSceneOutput
+  @objc weak public var uiDelegate: (any platformUI.GameMenuViewModelUIDelegate)? {
+    @objc get
+    @objc set
+  }
+  @objc public var topMenuContents: [platformUI.PTUResourceObjectStyleGameMenuSideElement]
+  @objc public var bottomMenuContents: [platformUI.PTUResourceObjectStyleGameMenuSideElement]
+  @objc public var footerContents: [CommonUI.PTUResourceObjectStyleFooterElement]
+  @objc public func closeGameMenu()
+  @objc public func gameMenu(_ gameMenu: platformUI.PTUGameMenu<platformUI.PTUResourceObjectStyleGameMenu>!, didSelect actionName: Swift.String!, actionURL: Swift.String!, title: Swift.String!) -> Swift.Bool
+  @objc public func gameMenu(_ gameMenu: platformUI.PTUGameMenu<platformUI.PTUResourceObjectStyleGameMenu>!, didAskToOpenLink link: Foundation.URL!)
+  @objc public func sendEventOpenGameMenu()
+  @objc deinit
+}
+extension platformUI.GameMenuViewModel : resources.PTUResourceObserver {
+  @objc dynamic public func resource(_ resource: resources.PTUResource<Swift.AnyObject>, didUpdateContentReadiness readyContent: Swift.Bool)
+  @objc dynamic public func resource(_ resource: resources.PTUResource<Swift.AnyObject>, didUpdateTreeReadiness readyTree: Swift.Bool)
+  @objc dynamic public func resource(_ resourceArray: resources.PTUResource<Swift.AnyObject>, didUpdateAvailableContents updateResult: resources.PTUResourceUpdate<Swift.AnyObject>)
+}
+extension platformUI.GameMenuViewModel : Middle.PTUGameControllerGenericObserver {
+  @objc dynamic public func goldenChipsAvailable(_ available: Swift.Bool, count: Swift.UInt64, totalValue value: Swift.Double)
+  @objc dynamic public func freeSpinBonusesAvailable(_ available: Swift.Bool, count: Swift.UInt64)
+}
+public protocol GameUIOutputDelegate : AnyObject {
+  func performAction(_ action: platformUI.GameUIOutput.Action)
+}
+@objc @_inheritsConvenienceInitializers public class GameUIOutput : ObjectiveC.NSObject {
+  public enum Action {
+    case initialRotatingAnimationIsFinished
+    public static func == (a: platformUI.GameUIOutput.Action, b: platformUI.GameUIOutput.Action) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol GameMenuButtonViewModelUIDelegate : platformUI.SceneViewModelUIDelegate {
+  @objc func setNoticeLabelStyle(_ style: CommonUI.PTUStyleLabel)
+  @objc func showNotice(_ show: Swift.Bool)
+  @objc func changeEnablingOfMenuButton(_ enabled: Swift.Bool)
+  @objc func changeVisibleOfBackButton(_ isVisible: Swift.Bool)
+  @objc func changeVisibleOfBottomBar(_ isVisible: Swift.Bool)
+  @objc func changeVisibleOfMenuButton(_ isVisible: Swift.Bool)
+}
+@objc public protocol GameUIViewModelUIDelegate : platformUI.SceneViewModelUIDelegate {
+  @objc func setSupportedOrientations(orientationMask: UIKit.UIInterfaceOrientationMask)
+  @objc func attachKingdomRiseGameSuiteWebView(webViewController: UIKit.UIViewController)
+  @objc func closeKingdomRiseGameSuiteWebView(webViewController: UIKit.UIViewController)
+}
+@_hasMissingDesignatedInitializers @objc public class PTUStyleResourceSessionPanelWrapper : ObjectiveC.NSObject {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class PTUStyleResourceSessionPanel : CommonUI.PTUResourceObjectStyle<CommonUI.PTUStyleSessionPanel, Swift.AnyObject> {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class PTUStyleResourceTimerPanelSegment : CommonUI.PTUResourceObjectStyle<CommonUI.PTUStyleRegulationPanelSegment, Swift.AnyObject> {
+  @objc deinit
+}
+@objc public protocol OverMenuButtonPopupsViewModelUIDelegate : platformUI.SceneViewModelUIDelegate {
+}
+@objc public protocol SceneView : UIKit.UIView {
+  @objc func willAppearOnPlatformLayer()
+  @objc func didAppearOnPlatformLayer()
+}
+@objc extension UIKit.UIView {
+  @objc public class TransitionOptions : ObjectiveC.NSObject {
+    @objc public enum Curve : Swift.Int {
+      case linear
+      case easeIn
+      case easeOut
+      case easeInOut
+      public init?(rawValue: Swift.Int)
+      public typealias RawValue = Swift.Int
+      public var rawValue: Swift.Int {
+        get
+      }
+    }
+    @objc public enum Direction : Swift.Int {
+      case fade
+      case toTop
+      case toBottom
+      case toLeft
+      case toRight
+      public init?(rawValue: Swift.Int)
+      public typealias RawValue = Swift.Int
+      public var rawValue: Swift.Int {
+        get
+      }
+    }
+    public var duration: Swift.Double
+    public var direction: UIKit.UIView.TransitionOptions.Direction
+    public var style: UIKit.UIView.TransitionOptions.Curve
+    @objc public init(direction: UIKit.UIView.TransitionOptions.Direction = .toRight, style: UIKit.UIView.TransitionOptions.Curve = .linear)
+    @objc deinit
+  }
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func applyTransitionAnimationOption(_ option: UIKit.UIView.TransitionOptions, completion: (() -> Swift.Void)? = nil)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func applyTransitionFadeAnimationOption(_ option: UIKit.UIView.TransitionOptions, completion: (() -> Swift.Void)? = nil)
+}
+public protocol BottomPanelSceneOutputDelegate : AnyObject {
+  func performAction(_ action: platformUI.BottomPanelSceneOutput.Action)
+}
+@objc @_inheritsConvenienceInitializers public class BottomPanelSceneOutput : ObjectiveC.NSObject {
+  public enum Action {
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension platformUI.PlatformRouter : platformUI.TimerPanelSceneOutputDelegate {
+  public func performAction(_ action: platformUI.TimerPanelSceneOutput.Action)
+}
+@_hasMissingDesignatedInitializers @objc public class PTUStyleResourceNetlossCooldownPanelWrapper : ObjectiveC.NSObject {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class PTUStyleResourceNetlossCooldownPanel : CommonUI.PTUResourceObjectStyle<CommonUI.PTUStyleNetlossCooldownPanel, Swift.AnyObject> {
+  @objc deinit
+}
+extension platformUI.GameMenuButtonSceneOutput.Action : Swift.Equatable {}
+extension platformUI.GameMenuButtonSceneOutput.Action : Swift.Hashable {}
+extension platformUI.HelpsWebView : platformUI.SceneViewModelUIDelegate {}
+extension platformUI.SessionPanelElementType : Swift.Equatable {}
+extension platformUI.SessionPanelElementType : Swift.Hashable {}
+extension platformUI.SessionPanelElementType : Swift.RawRepresentable {}
+extension platformUI.GameLoadingOutput.Action : Swift.Equatable {}
+extension platformUI.GameLoadingOutput.Action : Swift.Hashable {}
+extension platformUI.PlatformSceneIdentifier : Swift.Equatable {}
+extension platformUI.PlatformSceneIdentifier : Swift.Hashable {}
+extension platformUI.PlatformSceneIdentifier : Swift.RawRepresentable {}
+extension platformUI.GameUIOutput.Action : Swift.Equatable {}
+extension platformUI.GameUIOutput.Action : Swift.Hashable {}
+extension UIKit.UIView.TransitionOptions.Curve : Swift.Equatable {}
+extension UIKit.UIView.TransitionOptions.Curve : Swift.Hashable {}
+extension UIKit.UIView.TransitionOptions.Curve : Swift.RawRepresentable {}
+extension UIKit.UIView.TransitionOptions.Direction : Swift.Equatable {}
+extension UIKit.UIView.TransitionOptions.Direction : Swift.Hashable {}
+extension UIKit.UIView.TransitionOptions.Direction : Swift.RawRepresentable {}

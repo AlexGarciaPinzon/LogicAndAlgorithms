@@ -1,0 +1,80 @@
+{
+  "autoplay_confirmation_enabled": false,
+  "autoplay_enabled": true,
+  "autoplay_limits_enabled": true,
+  "balances": [],
+  "bring_money_interface_enabled": false,
+  "broken_games": {
+    "force_restore_enabled": true,
+    "replacement_codes_for_restore": {
+      "bj_mh5": "mobbj",
+      "gpas_chicagostr_pop": "ChicagoStreets",
+      "gpas_cosmcdsc_pop": "CosmicDisco",
+      "gpas_cots_pop": "CharmsOfTheSea",
+      "gpas_dotb_pop": "DrinksOnTheBeach",
+      "gpas_eliminators_pop": "Eliminators",
+      "gpas_fiesta_pop": "FiestaDeLaMemoria",
+      "gpas_gemburst_pop": "GemBurst",
+      "gpas_lotj_pop": "LOTJaguar",
+      "gpas_myfairpearl_pop": "MyFairPearl",
+      "gpas_rothr_pop": "RaidersOTHR",
+      "gpas_satsumo_pop": "SatsumosRevenge",
+      "gpas_solarseven_pop": "SolarSe7en",
+      "gpas_starsablaze_pop": "StarsAblaze",
+      "gpas_vampirep_pop": "VampirePrincess",
+      "gpas_xfiles_pop": "Xfiles",
+      "gtsir": "ir",
+      "hf": "hlf",
+      "mcb": "mrcb",
+      "pfbj_mh5": "bjp"
+    },
+    "threshold": 6
+  },
+  "cashier_type": 1,
+  "check_url_enabled": true,
+  "clock_visibility": true,
+  "close_fsb_button_enabled": true,
+  "confirm_dialog_enabled": false,
+  "country_codes_black_list": [],
+  "country_codes_white_list": [],
+  "enable_multiple_games": false,
+  "expanded_balances": [
+    {
+      "casino_gaming_balance": "LOBBY_BALANCE_POPUP_TOTAL_BALANCE"
+    },
+    {
+      "withdrawable_balance": "LOBBY_BALANCE_POPUP_CASH_BALANCE"
+    },
+    {
+      "total_bonus_balance": "LOBBY_BALANCE_POPUP_BONUS_BALANCE"
+    }
+  ],
+  "forgot_password_type": 0,
+  "gameLockScreen": {
+    "enabled": false,
+    "password": "test",
+    "pathToBlockedGamesConfigFile": "http://nc-ngm.playtechgaming.com/unified/19.6/WhiteLabel/configs/dev/19.6.0/configs/unified_locked_games.php"
+  },
+  "gamstop_templates": [
+    "gamstop_external_self_exclusion_rule_1"
+  ],
+  "jackpot_default_currency": "GBP",
+  "licensee_name": "",
+  "location_check_enabled": false,
+  "location_check_type": 0,
+  "login_type": 1,
+  "marvel_jackpot_enabled": true,
+  "min_spin_duration_miliseconds": 2500,
+  "nickname_support": false,
+  "registration_type": 2,
+  "regulation_footer": [],
+  "server_time_enabled": true,
+  "session_timer_enabled": false,
+  "show_loading_on_external_web_pages": true,
+  "skip_terms_and_conditions_dialog": true,
+  "stop_button_enabled": false,
+  "timebased_jackpot_enabled": true,
+  "turbo_mode_enabled": false,
+  "type": "uk",
+  "until_feature_enabled": false
+}

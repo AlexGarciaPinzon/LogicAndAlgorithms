@@ -1,0 +1,2436 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ImageKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TwitterImagePipeline",
+        "printedName": "TwitterImagePipeline",
+        "declKind": "Import",
+        "moduleName": "ImageKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ImageKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TwitterImagePipeline",
+        "printedName": "TwitterImagePipeline",
+        "declKind": "Import",
+        "moduleName": "ImageKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PTImageKit",
+        "printedName": "PTImageKit",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PTImageKit",
+                "printedName": "ImageKit.PTImageKit",
+                "usr": "c:@M@ImageKit@objc(cs)PTImageKit"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ImageKit@objc(cs)PTImageKit(cpy)sharedInstance",
+            "mangledName": "$s8ImageKit07PTImageB0C14sharedInstanceACvpZ",
+            "moduleName": "ImageKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PTImageKit",
+                    "printedName": "ImageKit.PTImageKit",
+                    "usr": "c:@M@ImageKit@objc(cs)PTImageKit"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ImageKit@objc(cs)PTImageKit(cm)sharedInstance",
+                "mangledName": "$s8ImageKit07PTImageB0C14sharedInstanceACvgZ",
+                "moduleName": "ImageKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "tip_imageFetchOperationDidStart",
+            "printedName": "tip_imageFetchOperationDidStart(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TIPImageFetchOperation",
+                "printedName": "TwitterImagePipeline.TIPImageFetchOperation",
+                "usr": "c:objc(cs)TIPImageFetchOperation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(cs)PTImageKit(im)tip_imageFetchOperationDidStart:",
+            "mangledName": "$s8ImageKit07PTImageB0C31tip_imageFetchOperationDidStartyySo08TIPImagefG0CF",
+            "moduleName": "ImageKit",
+            "objc_name": "tip_imageFetchOperationDidStart:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tip_imageFetchOperationDidFinish",
+            "printedName": "tip_imageFetchOperationDidFinish(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TIPImageFetchOperation",
+                "printedName": "TwitterImagePipeline.TIPImageFetchOperation",
+                "usr": "c:objc(cs)TIPImageFetchOperation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(cs)PTImageKit(im)tip_imageFetchOperationDidFinish:",
+            "mangledName": "$s8ImageKit07PTImageB0C32tip_imageFetchOperationDidFinishyySo08TIPImagefG0CF",
+            "moduleName": "ImageKit",
+            "objc_name": "tip_imageFetchOperationDidFinish:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tip_imageFetchOperation",
+            "printedName": "tip_imageFetchOperation(_:didStartDownloadingImageAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TIPImageFetchOperation",
+                "printedName": "TwitterImagePipeline.TIPImageFetchOperation",
+                "usr": "c:objc(cs)TIPImageFetchOperation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(cs)PTImageKit(im)tip_imageFetchOperation:didStartDownloadingImageAtURL:",
+            "mangledName": "$s8ImageKit07PTImageB0C23tip_imageFetchOperation_019didStartDownloadingA2AtySo08TIPImagefG0C_10Foundation3URLVtF",
+            "moduleName": "ImageKit",
+            "objc_name": "tip_imageFetchOperation:didStartDownloadingImageAtURL:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tip_imageFetchOperation",
+            "printedName": "tip_imageFetchOperation(_:didFinishDownloadingImageAt:imageType:sizeInBytes:dimensions:wasResumed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TIPImageFetchOperation",
+                "printedName": "TwitterImagePipeline.TIPImageFetchOperation",
+                "usr": "c:objc(cs)TIPImageFetchOperation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(cs)PTImageKit(im)tip_imageFetchOperation:didFinishDownloadingImageAtURL:imageType:sizeInBytes:dimensions:wasResumed:",
+            "mangledName": "$s8ImageKit07PTImageB0C23tip_imageFetchOperation_020didFinishDownloadingA2At0E4Type11sizeInBytes10dimensions10wasResumedySo08TIPImagefG0C_10Foundation3URLVSSSuSo6CGSizeVSbtF",
+            "moduleName": "ImageKit",
+            "objc_name": "tip_imageFetchOperation:didFinishDownloadingImageAtURL:imageType:sizeInBytes:dimensions:wasResumed:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "image",
+            "printedName": "image(with:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CancellableImageFetch",
+                "printedName": "ImageKit.CancellableImageFetch",
+                "usr": "c:@M@ImageKit@objc(cs)CancellableImageFetch"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageKitFetchRequest",
+                "printedName": "ImageKit.ImageKitFetchRequest",
+                "usr": "c:@M@ImageKit@objc(cs)ImageKitFetchRequest"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ImageKit.ImageFetchResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageFetchResult",
+                    "printedName": "ImageKit.ImageFetchResult",
+                    "usr": "c:@M@ImageKit@objc(cs)ImageFetchResult"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(cs)PTImageKit(im)imageWith:completion:",
+            "mangledName": "$s8ImageKit07PTImageB0C5image4with10completionAA011CancellableA5FetchCAA0abH7RequestC_yAA0aH6ResultCctF",
+            "moduleName": "ImageKit",
+            "objc_name": "imageWith:completion:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "images",
+            "printedName": "images(with:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CancellableImageFetch",
+                "printedName": "ImageKit.CancellableImageFetch",
+                "usr": "c:@M@ImageKit@objc(cs)CancellableImageFetch"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ImageKit.ImageKitFetchRequest]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageKitFetchRequest",
+                    "printedName": "ImageKit.ImageKitFetchRequest",
+                    "usr": "c:@M@ImageKit@objc(cs)ImageKitFetchRequest"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([ImageKit.ImageFetchResult]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ImageKit.ImageFetchResult]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageFetchResult",
+                        "printedName": "ImageKit.ImageFetchResult",
+                        "usr": "c:@M@ImageKit@objc(cs)ImageFetchResult"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(cs)PTImageKit(im)imagesWith:completion:",
+            "mangledName": "$s8ImageKit07PTImageB0C6images4with10completionAA011CancellableA5FetchCSayAA0abH7RequestCG_ySayAA0aH6ResultCGctF",
+            "moduleName": "ImageKit",
+            "objc_name": "imagesWith:completion:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "image",
+            "printedName": "image(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageFetchResult",
+                "printedName": "ImageKit.ImageFetchResult",
+                "usr": "c:@M@ImageKit@objc(cs)ImageFetchResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageKitFetchRequest",
+                "printedName": "ImageKit.ImageKitFetchRequest",
+                "usr": "c:@M@ImageKit@objc(cs)ImageKitFetchRequest"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(cs)PTImageKit(im)imageWith:",
+            "mangledName": "$s8ImageKit07PTImageB0C5image4withAA0A11FetchResultCAA0abF7RequestC_tF",
+            "moduleName": "ImageKit",
+            "objc_name": "imageWith:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "images",
+            "printedName": "images(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ImageKit.ImageFetchResult]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageFetchResult",
+                    "printedName": "ImageKit.ImageFetchResult",
+                    "usr": "c:@M@ImageKit@objc(cs)ImageFetchResult"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ImageKit.ImageKitFetchRequest]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageKitFetchRequest",
+                    "printedName": "ImageKit.ImageKitFetchRequest",
+                    "usr": "c:@M@ImageKit@objc(cs)ImageKitFetchRequest"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(cs)PTImageKit(im)imagesWith:",
+            "mangledName": "$s8ImageKit07PTImageB0C6images4withSayAA0A11FetchResultCGSayAA0abF7RequestCG_tF",
+            "moduleName": "ImageKit",
+            "objc_name": "imagesWith:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cacheImage",
+            "printedName": "cacheImage(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(cs)PTImageKit(im)cacheImage:for:",
+            "mangledName": "$s8ImageKit07PTImageB0C05cacheA0_3forySo7UIImageC_10Foundation3URLVtF",
+            "moduleName": "ImageKit",
+            "objc_name": "cacheImage:for:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cachedImage",
+            "printedName": "cachedImage(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(cs)PTImageKit(im)cachedImageFor:",
+            "mangledName": "$s8ImageKit07PTImageB0C06cachedA03forSo7UIImageCSg10Foundation3URLV_tF",
+            "moduleName": "ImageKit",
+            "objc_name": "cachedImageFor:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "invalidateCache",
+            "printedName": "invalidateCache(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(cs)PTImageKit(im)invalidateCacheFor:",
+            "mangledName": "$s8ImageKit07PTImageB0C15invalidateCache3fory10Foundation3URLV_tF",
+            "moduleName": "ImageKit",
+            "objc_name": "invalidateCacheFor:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "invalidateCaches",
+            "printedName": "invalidateCaches()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(cs)PTImageKit(im)invalidateCaches",
+            "mangledName": "$s8ImageKit07PTImageB0C16invalidateCachesyyF",
+            "moduleName": "ImageKit",
+            "objc_name": "invalidateCaches",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tip_retrieveImage",
+            "printedName": "tip_retrieveImage(for:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIImage?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(cs)PTImageKit(im)tip_retrieveImageForURL:completion:",
+            "mangledName": "$s8ImageKit07PTImageB0C012tip_retrieveA03for10completiony10Foundation3URLV_ySo7UIImageCSgctF",
+            "moduleName": "ImageKit",
+            "objc_name": "tip_retrieveImageForURL:completion:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ImageKit@objc(cs)PTImageKit",
+        "mangledName": "$s8ImageKit07PTImageB0C",
+        "moduleName": "ImageKit",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ImageKitProtocol",
+            "printedName": "ImageKitProtocol",
+            "usr": "c:@M@ImageKit@objc(pl)ImageKitProtocol",
+            "mangledName": "$s8ImageKit0aB8ProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ImageKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ImageKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "ImageKit",
+        "printedName": "ImageKit",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "ImageKitProtocol",
+            "printedName": "ImageKit.ImageKitProtocol",
+            "usr": "c:@M@ImageKit@objc(pl)ImageKitProtocol"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:8ImageKitA2A0aB8Protocol_pvp",
+        "mangledName": "$s8ImageKitA2A0aB8Protocol_pvp",
+        "moduleName": "ImageKit",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageKitProtocol",
+                "printedName": "ImageKit.ImageKitProtocol",
+                "usr": "c:@M@ImageKit@objc(pl)ImageKitProtocol"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:8ImageKitA2A0aB8Protocol_pvg",
+            "mangledName": "$s8ImageKitA2A0aB8Protocol_pvg",
+            "moduleName": "ImageKit",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageKitProtocol",
+        "printedName": "ImageKitProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "image",
+            "printedName": "image(with:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CancellableImageFetch",
+                "printedName": "ImageKit.CancellableImageFetch",
+                "usr": "c:@M@ImageKit@objc(cs)CancellableImageFetch"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageKitFetchRequest",
+                "printedName": "ImageKit.ImageKitFetchRequest",
+                "usr": "c:@M@ImageKit@objc(cs)ImageKitFetchRequest"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ImageKit.ImageFetchResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageFetchResult",
+                    "printedName": "ImageKit.ImageFetchResult",
+                    "usr": "c:@M@ImageKit@objc(cs)ImageFetchResult"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(pl)ImageKitProtocol(im)imageWith:completion:",
+            "mangledName": "$s8ImageKit0aB8ProtocolP5image4with10completionAA011CancellableA5FetchCAA0abH7RequestC_yAA0aH6ResultCctF",
+            "moduleName": "ImageKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ImageKit.ImageKitProtocol>",
+            "sugared_genericSig": "<Self where Self : ImageKit.ImageKitProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "DiscardableResult",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "images",
+            "printedName": "images(with:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CancellableImageFetch",
+                "printedName": "ImageKit.CancellableImageFetch",
+                "usr": "c:@M@ImageKit@objc(cs)CancellableImageFetch"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ImageKit.ImageKitFetchRequest]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageKitFetchRequest",
+                    "printedName": "ImageKit.ImageKitFetchRequest",
+                    "usr": "c:@M@ImageKit@objc(cs)ImageKitFetchRequest"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([ImageKit.ImageFetchResult]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ImageKit.ImageFetchResult]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageFetchResult",
+                        "printedName": "ImageKit.ImageFetchResult",
+                        "usr": "c:@M@ImageKit@objc(cs)ImageFetchResult"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(pl)ImageKitProtocol(im)imagesWith:completion:",
+            "mangledName": "$s8ImageKit0aB8ProtocolP6images4with10completionAA011CancellableA5FetchCSayAA0abH7RequestCG_ySayAA0aH6ResultCGctF",
+            "moduleName": "ImageKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ImageKit.ImageKitProtocol>",
+            "sugared_genericSig": "<Self where Self : ImageKit.ImageKitProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "DiscardableResult",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "image",
+            "printedName": "image(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageFetchResult",
+                "printedName": "ImageKit.ImageFetchResult",
+                "usr": "c:@M@ImageKit@objc(cs)ImageFetchResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageKitFetchRequest",
+                "printedName": "ImageKit.ImageKitFetchRequest",
+                "usr": "c:@M@ImageKit@objc(cs)ImageKitFetchRequest"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(pl)ImageKitProtocol(im)imageWith:",
+            "mangledName": "$s8ImageKit0aB8ProtocolP5image4withAA0A11FetchResultCAA0abF7RequestC_tF",
+            "moduleName": "ImageKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ImageKit.ImageKitProtocol>",
+            "sugared_genericSig": "<Self where Self : ImageKit.ImageKitProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "images",
+            "printedName": "images(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ImageKit.ImageFetchResult]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageFetchResult",
+                    "printedName": "ImageKit.ImageFetchResult",
+                    "usr": "c:@M@ImageKit@objc(cs)ImageFetchResult"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ImageKit.ImageKitFetchRequest]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageKitFetchRequest",
+                    "printedName": "ImageKit.ImageKitFetchRequest",
+                    "usr": "c:@M@ImageKit@objc(cs)ImageKitFetchRequest"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(pl)ImageKitProtocol(im)imagesWith:",
+            "mangledName": "$s8ImageKit0aB8ProtocolP6images4withSayAA0A11FetchResultCGSayAA0abF7RequestCG_tF",
+            "moduleName": "ImageKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ImageKit.ImageKitProtocol>",
+            "sugared_genericSig": "<Self where Self : ImageKit.ImageKitProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "invalidateCache",
+            "printedName": "invalidateCache(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(pl)ImageKitProtocol(im)invalidateCacheFor:",
+            "mangledName": "$s8ImageKit0aB8ProtocolP15invalidateCache3fory10Foundation3URLV_tF",
+            "moduleName": "ImageKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ImageKit.ImageKitProtocol>",
+            "sugared_genericSig": "<Self where Self : ImageKit.ImageKitProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "invalidateCaches",
+            "printedName": "invalidateCaches()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(pl)ImageKitProtocol(im)invalidateCaches",
+            "mangledName": "$s8ImageKit0aB8ProtocolP16invalidateCachesyyF",
+            "moduleName": "ImageKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ImageKit.ImageKitProtocol>",
+            "sugared_genericSig": "<Self where Self : ImageKit.ImageKitProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cacheImage",
+            "printedName": "cacheImage(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(pl)ImageKitProtocol(im)cacheImage:for:",
+            "mangledName": "$s8ImageKit0aB8ProtocolP05cacheA0_3forySo7UIImageC_10Foundation3URLVtF",
+            "moduleName": "ImageKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ImageKit.ImageKitProtocol>",
+            "sugared_genericSig": "<Self where Self : ImageKit.ImageKitProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cachedImage",
+            "printedName": "cachedImage(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(pl)ImageKitProtocol(im)cachedImageFor:",
+            "mangledName": "$s8ImageKit0aB8ProtocolP06cachedA03forSo7UIImageCSg10Foundation3URLV_tF",
+            "moduleName": "ImageKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ImageKit.ImageKitProtocol>",
+            "sugared_genericSig": "<Self where Self : ImageKit.ImageKitProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logPermanentCacheFiles",
+            "printedName": "logPermanentCacheFiles()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ImageKit0aB8ProtocolPAAE22logPermanentCacheFilesyyF",
+            "mangledName": "$s8ImageKit0aB8ProtocolPAAE22logPermanentCacheFilesyyF",
+            "moduleName": "ImageKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ImageKit.ImageKitProtocol>",
+            "sugared_genericSig": "<Self where Self : ImageKit.ImageKitProtocol>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@ImageKit@objc(pl)ImageKitProtocol",
+        "mangledName": "$s8ImageKit0aB8ProtocolP",
+        "moduleName": "ImageKit",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageKitFetchRequest",
+        "printedName": "ImageKitFetchRequest",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8ImageKit0aB12FetchRequestC3url10Foundation3URLVvp",
+            "mangledName": "$s8ImageKit0aB12FetchRequestC3url10Foundation3URLVvp",
+            "moduleName": "ImageKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ImageKit0aB12FetchRequestC3url10Foundation3URLVvg",
+                "mangledName": "$s8ImageKit0aB12FetchRequestC3url10Foundation3URLVvg",
+                "moduleName": "ImageKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "resizing",
+            "printedName": "resizing",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResizing",
+                "printedName": "ImageKit.ImageResizing",
+                "usr": "c:@M@ImageKit@objc(cs)ImageResizing"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8ImageKit0aB12FetchRequestC8resizingAA0A8ResizingCvp",
+            "mangledName": "$s8ImageKit0aB12FetchRequestC8resizingAA0A8ResizingCvp",
+            "moduleName": "ImageKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageResizing",
+                    "printedName": "ImageKit.ImageResizing",
+                    "usr": "c:@M@ImageKit@objc(cs)ImageResizing"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ImageKit0aB12FetchRequestC8resizingAA0A8ResizingCvg",
+                "mangledName": "$s8ImageKit0aB12FetchRequestC8resizingAA0A8ResizingCvg",
+                "moduleName": "ImageKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "usePermanentCache",
+            "printedName": "usePermanentCache",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8ImageKit0aB12FetchRequestC17usePermanentCacheSbvp",
+            "mangledName": "$s8ImageKit0aB12FetchRequestC17usePermanentCacheSbvp",
+            "moduleName": "ImageKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ImageKit0aB12FetchRequestC17usePermanentCacheSbvg",
+                "mangledName": "$s8ImageKit0aB12FetchRequestC17usePermanentCacheSbvg",
+                "moduleName": "ImageKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:resizing:usePermanentCache:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageKitFetchRequest",
+                "printedName": "ImageKit.ImageKitFetchRequest",
+                "usr": "c:@M@ImageKit@objc(cs)ImageKitFetchRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResizing",
+                "printedName": "ImageKit.ImageResizing",
+                "usr": "c:@M@ImageKit@objc(cs)ImageResizing"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ImageKit@objc(cs)ImageKitFetchRequest(im)initWithUrl:resizing:usePermanentCache:",
+            "mangledName": "$s8ImageKit0aB12FetchRequestC3url8resizing17usePermanentCacheAC10Foundation3URLV_AA0A8ResizingCSbtcfc",
+            "moduleName": "ImageKit",
+            "objc_name": "initWithUrl:resizing:usePermanentCache:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageKitFetchRequest",
+                "printedName": "ImageKit.ImageKitFetchRequest",
+                "usr": "c:@M@ImageKit@objc(cs)ImageKitFetchRequest"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ImageKit@objc(cs)ImageKitFetchRequest(im)init",
+            "mangledName": "$s8ImageKit0aB12FetchRequestCACycfc",
+            "moduleName": "ImageKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ImageKit@objc(cs)ImageKitFetchRequest",
+        "mangledName": "$s8ImageKit0aB12FetchRequestC",
+        "moduleName": "ImageKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageFetchResult",
+        "printedName": "ImageFetchResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ImageKit@objc(cs)ImageFetchResult(py)image",
+            "mangledName": "$s8ImageKit0A11FetchResultC5imageSo7UIImageCSgvp",
+            "moduleName": "ImageKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ImageKit@objc(cs)ImageFetchResult(im)image",
+                "mangledName": "$s8ImageKit0A11FetchResultC5imageSo7UIImageCSgvg",
+                "moduleName": "ImageKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ImageKit@objc(cs)ImageFetchResult(py)error",
+            "mangledName": "$s8ImageKit0A11FetchResultC5errors5Error_pSgvp",
+            "moduleName": "ImageKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Error?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ImageKit@objc(cs)ImageFetchResult(im)error",
+                "mangledName": "$s8ImageKit0A11FetchResultC5errors5Error_pSgvg",
+                "moduleName": "ImageKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageFetchResult",
+                "printedName": "ImageKit.ImageFetchResult",
+                "usr": "c:@M@ImageKit@objc(cs)ImageFetchResult"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ImageKit@objc(cs)ImageFetchResult(im)init",
+            "mangledName": "$s8ImageKit0A11FetchResultCACycfc",
+            "moduleName": "ImageKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ImageKit@objc(cs)ImageFetchResult",
+        "mangledName": "$s8ImageKit0A11FetchResultC",
+        "moduleName": "ImageKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageResizing",
+        "printedName": "ImageResizing",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "resize",
+            "printedName": "resize(to:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResizing",
+                "printedName": "ImageKit.ImageResizing",
+                "usr": "c:@M@ImageKit@objc(cs)ImageResizing"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContentMode",
+                "printedName": "UIKit.UIView.ContentMode",
+                "usr": "c:@E@UIViewContentMode"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(cs)ImageResizing(cm)resizeTo:with:",
+            "mangledName": "$s8ImageKit0A8ResizingC6resize2to4withACSo6CGSizeV_So17UIViewContentModeVtFZ",
+            "moduleName": "ImageKit",
+            "static": true,
+            "objc_name": "resizeTo:with:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disabledResizing",
+            "printedName": "disabledResizing()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResizing",
+                "printedName": "ImageKit.ImageResizing",
+                "usr": "c:@M@ImageKit@objc(cs)ImageResizing"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(cs)ImageResizing(cm)disabledResizing",
+            "mangledName": "$s8ImageKit0A8ResizingC08disabledC0ACyFZ",
+            "moduleName": "ImageKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResizing",
+                "printedName": "ImageKit.ImageResizing",
+                "usr": "c:@M@ImageKit@objc(cs)ImageResizing"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ImageKit@objc(cs)ImageResizing(im)init",
+            "mangledName": "$s8ImageKit0A8ResizingCACycfc",
+            "moduleName": "ImageKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ImageKit@objc(cs)ImageResizing",
+        "mangledName": "$s8ImageKit0A8ResizingC",
+        "moduleName": "ImageKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CancellableImageFetch",
+        "printedName": "CancellableImageFetch",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cancelImageDownload",
+            "printedName": "cancelImageDownload()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageKit@objc(cs)CancellableImageFetch(im)cancelImageDownload",
+            "mangledName": "$s8ImageKit011CancellableA5FetchC06cancelA8DownloadyyF",
+            "moduleName": "ImageKit",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CancellableImageFetch",
+                "printedName": "ImageKit.CancellableImageFetch",
+                "usr": "c:@M@ImageKit@objc(cs)CancellableImageFetch"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ImageKit@objc(cs)CancellableImageFetch(im)init",
+            "mangledName": "$s8ImageKit011CancellableA5FetchCACycfc",
+            "moduleName": "ImageKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "copy",
+            "printedName": "copy(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ObjectiveC.NSZone?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSZone",
+                    "printedName": "ObjectiveC.NSZone",
+                    "usr": "s:10ObjectiveC6NSZoneV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ImageKit@objc(cs)CancellableImageFetch(im)copyWithZone:",
+            "mangledName": "$s8ImageKit011CancellableA5FetchC4copy4withyp10ObjectiveC6NSZoneVSg_tF",
+            "moduleName": "ImageKit",
+            "objc_name": "copyWithZone:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ImageKit@objc(cs)CancellableImageFetch",
+        "mangledName": "$s8ImageKit011CancellableA5FetchC",
+        "moduleName": "ImageKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ImageKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TwitterImagePipeline",
+        "printedName": "TwitterImagePipeline",
+        "declKind": "Import",
+        "moduleName": "ImageKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Tools",
+        "printedName": "Tools",
+        "declKind": "Import",
+        "moduleName": "ImageKit"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/ImageFetchRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 745,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/ImageFetchRequest.swift",
+      "kind": "Array",
+      "offset": 1094,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/ImageFetchRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 17,
+      "value": "\"ImageKit.ImageFetchRequest\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 878,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 983,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1199,
+      "length": 26,
+      "value": "\"ImageKit.defaultPipeline\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1424,
+      "length": 33,
+      "value": "\"ImageKit.permanentCachePipeline\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3130,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4024,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4346,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 4963,
+      "length": 161,
+      "value": "\"PANIC: ImageKit: Sync image loading methods should not be used from main thread to prevent deadlocks, use async counterpart or call method from another thread.\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5194,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5477,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 5800,
+      "length": 161,
+      "value": "\"PANIC: ImageKit: Sync image loading methods should not be used from main thread to prevent deadlocks, use async counterpart or call method from another thread.\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 6660,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 6683,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 7109,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 7132,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 8446,
+      "length": 62,
+      "value": "\"invalidating permanent cache for url: \""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 8507,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 8721,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 8744,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 8891,
+      "length": 35,
+      "value": "\"invalidating all permanent caches\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 9362,
+      "length": 35,
+      "value": "\"perm_cache_\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 9396,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 9412,
+      "length": 39,
+      "value": "\"cacheIdentifier | \""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 9438,
+      "length": 1,
+      "value": "\" | \""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 9450,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 9744,
+      "length": 16,
+      "value": "\"PermanentCache\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9851,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "Array",
+      "offset": 10078,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 10309,
+      "length": 18,
+      "value": "\"Permanent cache:\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 10570,
+      "length": 45,
+      "value": "\"#\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 10580,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 10614,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/PTImageKit.swift",
+      "kind": "StringLiteral",
+      "offset": 10646,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/Public.swift",
+      "kind": "StringLiteral",
+      "offset": 1393,
+      "length": 20,
+      "value": "\"ImageKit.ImageKitFetchRequest\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/Public.swift",
+      "kind": "StringLiteral",
+      "offset": 1805,
+      "length": 16,
+      "value": "\"ImageKit.ImageFetchResult\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/Public.swift",
+      "kind": "StringLiteral",
+      "offset": 2190,
+      "length": 13,
+      "value": "\"ImageKit.ImageResizing\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/Public.swift",
+      "kind": "Array",
+      "offset": 3172,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/Public.swift",
+      "kind": "Array",
+      "offset": 3356,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 451,
+      "length": 19,
+      "value": "\"<TIP | EMERGENCY>\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 513,
+      "length": 15,
+      "value": "\"<TIP | ALERT>\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 574,
+      "length": 18,
+      "value": "\"<TIP | CRITICAL>\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 635,
+      "length": 15,
+      "value": "\"<TIP | ERROR>\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 695,
+      "length": 17,
+      "value": "\"<TIP | WARNING>\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 756,
+      "length": 16,
+      "value": "\"<TIP | NOTICE>\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 821,
+      "length": 21,
+      "value": "\"<TIP | INFORMATION>\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 885,
+      "length": 15,
+      "value": "\"<TIP | DEBUG>\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 948,
+      "length": 17,
+      "value": "\"<TIP | UNKNOWN>\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1034,
+      "length": 44,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1044,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1055,
+      "length": 1,
+      "value": "\" | \""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1065,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1077,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1485,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1532,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1582,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1629,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1678,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1727,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1781,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1829,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/ImageKit\/ImageKit\/PTImageKit\/Logger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1882,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

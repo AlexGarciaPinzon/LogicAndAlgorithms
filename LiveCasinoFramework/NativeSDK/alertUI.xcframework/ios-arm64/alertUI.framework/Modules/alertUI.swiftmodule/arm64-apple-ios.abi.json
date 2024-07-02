@@ -1,0 +1,4375 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "CommonUI",
+        "printedName": "CommonUI",
+        "declKind": "Import",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Middle",
+        "printedName": "Middle",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AlertsStateManagement",
+        "printedName": "AlertsStateManagement",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "suspend",
+            "printedName": "suspend()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI21AlertsStateManagementP7suspendyyF",
+            "mangledName": "$s7alertUI21AlertsStateManagementP7suspendyyF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.AlertsStateManagement>",
+            "sugared_genericSig": "<Self where Self : alertUI.AlertsStateManagement>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unpause",
+            "printedName": "unpause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI21AlertsStateManagementP7unpauseyyF",
+            "mangledName": "$s7alertUI21AlertsStateManagementP7unpauseyyF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.AlertsStateManagement>",
+            "sugared_genericSig": "<Self where Self : alertUI.AlertsStateManagement>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7alertUI21AlertsStateManagementP",
+        "mangledName": "$s7alertUI21AlertsStateManagementP",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AlertsRouterActions",
+        "printedName": "AlertsRouterActions",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "presentAlert",
+            "printedName": "presentAlert(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertStruct",
+                "printedName": "alertUI.AlertStruct",
+                "usr": "s:7alertUI11AlertStructV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI19AlertsRouterActionsP12presentAlertyyAA0G6StructVF",
+            "mangledName": "$s7alertUI19AlertsRouterActionsP12presentAlertyyAA0G6StructVF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.AlertsRouterActions>",
+            "sugared_genericSig": "<Self where Self : alertUI.AlertsRouterActions>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismissAlert",
+            "printedName": "dismissAlert(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertStruct",
+                "printedName": "alertUI.AlertStruct",
+                "usr": "s:7alertUI11AlertStructV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI19AlertsRouterActionsP12dismissAlertyyAA0G6StructVF",
+            "mangledName": "$s7alertUI19AlertsRouterActionsP12dismissAlertyyAA0G6StructVF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.AlertsRouterActions>",
+            "sugared_genericSig": "<Self where Self : alertUI.AlertsRouterActions>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismissAlert",
+            "printedName": "dismissAlert(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI19AlertsRouterActionsP12dismissAlertyySSF",
+            "mangledName": "$s7alertUI19AlertsRouterActionsP12dismissAlertyySSF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.AlertsRouterActions>",
+            "sugared_genericSig": "<Self where Self : alertUI.AlertsRouterActions>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7alertUI19AlertsRouterActionsP",
+        "mangledName": "$s7alertUI19AlertsRouterActionsP",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToastersRouterActions",
+        "printedName": "ToastersRouterActions",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "presentToaster",
+            "printedName": "presentToaster(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PTUEnhancedMessage",
+                "printedName": "Middle.PTUEnhancedMessage",
+                "usr": "c:objc(cs)PTUEnhancedMessage"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonUI.ToasterMessageviewResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ToasterMessageviewResult",
+                    "printedName": "CommonUI.ToasterMessageviewResult",
+                    "usr": "s:8CommonUI24ToasterMessageviewResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI21ToastersRouterActionsP14presentToaster_10completionySo18PTUEnhancedMessageC_y06CommonB00G17MessageviewResultOctF",
+            "mangledName": "$s7alertUI21ToastersRouterActionsP14presentToaster_10completionySo18PTUEnhancedMessageC_y06CommonB00G17MessageviewResultOctF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.ToastersRouterActions>",
+            "sugared_genericSig": "<Self where Self : alertUI.ToastersRouterActions>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismissToaster",
+            "printedName": "dismissToaster(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PTUEnhancedMessage",
+                "printedName": "Middle.PTUEnhancedMessage",
+                "usr": "c:objc(cs)PTUEnhancedMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI21ToastersRouterActionsP14dismissToasteryySo18PTUEnhancedMessageCF",
+            "mangledName": "$s7alertUI21ToastersRouterActionsP14dismissToasteryySo18PTUEnhancedMessageCF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.ToastersRouterActions>",
+            "sugared_genericSig": "<Self where Self : alertUI.ToastersRouterActions>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7alertUI21ToastersRouterActionsP",
+        "mangledName": "$s7alertUI21ToastersRouterActionsP",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AlertsActions",
+        "printedName": "AlertsActions",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "showDefaultAlert",
+            "printedName": "showDefaultAlert(title:message:actions:alertIdentifier:actionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CommonUI.AlertAction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertAction",
+                    "printedName": "CommonUI.AlertAction",
+                    "usr": "c:@M@CommonUI@objc(cs)AlertAction"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((CommonUI.AlertMessageviewResult) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CommonUI.AlertMessageviewResult) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertMessageviewResult",
+                        "printedName": "CommonUI.AlertMessageviewResult",
+                        "usr": "s:8CommonUI22AlertMessageviewResultO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI13AlertsActionsP16showDefaultAlert5title7message7actions0A10Identifier13actionHandlerySSSg_AJSay06CommonB00G6ActionCGAJyAK0G17MessageviewResultOcSgtF",
+            "mangledName": "$s7alertUI13AlertsActionsP16showDefaultAlert5title7message7actions0A10Identifier13actionHandlerySSSg_AJSay06CommonB00G6ActionCGAJyAK0G17MessageviewResultOcSgtF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.AlertsActions>",
+            "sugared_genericSig": "<Self where Self : alertUI.AlertsActions>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showDefaultAlert",
+            "printedName": "showDefaultAlert(title:message:actions:priority:alertIdentifier:actionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CommonUI.AlertAction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertAction",
+                    "printedName": "CommonUI.AlertAction",
+                    "usr": "c:@M@CommonUI@objc(cs)AlertAction"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Priority",
+                "printedName": "alertUI.Priority",
+                "usr": "s:7alertUI8PriorityO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((CommonUI.AlertMessageviewResult) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CommonUI.AlertMessageviewResult) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertMessageviewResult",
+                        "printedName": "CommonUI.AlertMessageviewResult",
+                        "usr": "s:8CommonUI22AlertMessageviewResultO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI13AlertsActionsP16showDefaultAlert5title7message7actions8priority0A10Identifier13actionHandlerySSSg_AKSay06CommonB00G6ActionCGAA8PriorityOAKyAL0G17MessageviewResultOcSgtF",
+            "mangledName": "$s7alertUI13AlertsActionsP16showDefaultAlert5title7message7actions8priority0A10Identifier13actionHandlerySSSg_AKSay06CommonB00G6ActionCGAA8PriorityOAKyAL0G17MessageviewResultOcSgtF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.AlertsActions>",
+            "sugared_genericSig": "<Self where Self : alertUI.AlertsActions>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showDefaultAlert",
+            "printedName": "showDefaultAlert(title:message:style:actions:alertIdentifier:actionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CommonUI.AlertLabelTitle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertLabelTitle",
+                    "printedName": "CommonUI.AlertLabelTitle",
+                    "usr": "c:@M@CommonUI@objc(cs)AlertLabelTitle"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CommonUI.AlertLabelTitle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertLabelTitle",
+                    "printedName": "CommonUI.AlertLabelTitle",
+                    "usr": "c:@M@CommonUI@objc(cs)AlertLabelTitle"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PTUStyleView",
+                "printedName": "CommonUI.PTUStyleView",
+                "usr": "c:objc(cs)PTUStyleView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CommonUI.AlertAction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertAction",
+                    "printedName": "CommonUI.AlertAction",
+                    "usr": "c:@M@CommonUI@objc(cs)AlertAction"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((CommonUI.AlertMessageviewResult) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CommonUI.AlertMessageviewResult) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertMessageviewResult",
+                        "printedName": "CommonUI.AlertMessageviewResult",
+                        "usr": "s:8CommonUI22AlertMessageviewResultO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI13AlertsActionsP16showDefaultAlert5title7message5style7actions0A10Identifier13actionHandlery06CommonB00G10LabelTitleCSg_ANSo12PTUStyleViewCSayAK0G6ActionCGSSSgyAK0G17MessageviewResultOcSgtF",
+            "mangledName": "$s7alertUI13AlertsActionsP16showDefaultAlert5title7message5style7actions0A10Identifier13actionHandlery06CommonB00G10LabelTitleCSg_ANSo12PTUStyleViewCSayAK0G6ActionCGSSSgyAK0G17MessageviewResultOcSgtF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.AlertsActions>",
+            "sugared_genericSig": "<Self where Self : alertUI.AlertsActions>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showEnhancedMessageAlert",
+            "printedName": "showEnhancedMessageAlert(title:image:actions:alertIdentifier:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[alertUI.EnhancedMessageAction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EnhancedMessageAction",
+                    "printedName": "alertUI.EnhancedMessageAction",
+                    "usr": "s:7alertUI21EnhancedMessageActionV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonUI.EnhancedMessageAlertViewResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EnhancedMessageAlertViewResult",
+                    "printedName": "CommonUI.EnhancedMessageAlertViewResult",
+                    "usr": "s:8CommonUI30EnhancedMessageAlertViewResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI13AlertsActionsP24showEnhancedMessageAlert5title5image7actions0A10Identifier10completionySSSg_So7UIImageCSgSayAA0fG6ActionVGAJy06CommonB00fgH10ViewResultOctF",
+            "mangledName": "$s7alertUI13AlertsActionsP24showEnhancedMessageAlert5title5image7actions0A10Identifier10completionySSSg_So7UIImageCSgSayAA0fG6ActionVGAJy06CommonB00fgH10ViewResultOctF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.AlertsActions>",
+            "sugared_genericSig": "<Self where Self : alertUI.AlertsActions>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showGameListAlert",
+            "printedName": "showGameListAlert(title:message:games:actions:alertIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CommonUI.AlertGameModel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertGameModel",
+                    "printedName": "CommonUI.AlertGameModel",
+                    "usr": "c:@M@CommonUI@objc(cs)AlertGameModel"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CommonUI.AlertAction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertAction",
+                    "printedName": "CommonUI.AlertAction",
+                    "usr": "c:@M@CommonUI@objc(cs)AlertAction"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI13AlertsActionsP17showGameListAlert5title7message5games7actions0A10IdentifierySSSg_AJSay06CommonB00hF5ModelCGSayAK0H6ActionCGAJtF",
+            "mangledName": "$s7alertUI13AlertsActionsP17showGameListAlert5title7message5games7actions0A10IdentifierySSSg_AJSay06CommonB00hF5ModelCGSayAK0H6ActionCGAJtF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.AlertsActions>",
+            "sugared_genericSig": "<Self where Self : alertUI.AlertsActions>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showDropDownAlert",
+            "printedName": "showDropDownAlert(message:isHiddenDropDown:dropdownOptions:actions:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CommonUI.AlertAction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertAction",
+                    "printedName": "CommonUI.AlertAction",
+                    "usr": "c:@M@CommonUI@objc(cs)AlertAction"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.UInt?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.UInt?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.UInt?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt",
+                            "printedName": "Swift.UInt",
+                            "usr": "s:Su"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI13AlertsActionsP17showDropDownAlert7message08isHiddenfG015dropdownOptions7actions10completionySSSg_SbSaySSGSay06CommonB00H6ActionCGySuSgcSgtF",
+            "mangledName": "$s7alertUI13AlertsActionsP17showDropDownAlert7message08isHiddenfG015dropdownOptions7actions10completionySSSg_SbSaySSGSay06CommonB00H6ActionCGySuSgcSgtF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.AlertsActions>",
+            "sugared_genericSig": "<Self where Self : alertUI.AlertsActions>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7alertUI13AlertsActionsP",
+        "mangledName": "$s7alertUI13AlertsActionsP",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToastersActions",
+        "printedName": "ToastersActions",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "showToaster",
+            "printedName": "showToaster(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PTUEnhancedMessage",
+                "printedName": "Middle.PTUEnhancedMessage",
+                "usr": "c:objc(cs)PTUEnhancedMessage"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonUI.ToasterMessageviewResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ToasterMessageviewResult",
+                    "printedName": "CommonUI.ToasterMessageviewResult",
+                    "usr": "s:8CommonUI24ToasterMessageviewResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI15ToastersActionsP11showToaster_10completionySo18PTUEnhancedMessageC_y06CommonB00F17MessageviewResultOctF",
+            "mangledName": "$s7alertUI15ToastersActionsP11showToaster_10completionySo18PTUEnhancedMessageC_y06CommonB00F17MessageviewResultOctF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.ToastersActions>",
+            "sugared_genericSig": "<Self where Self : alertUI.ToastersActions>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideToaster",
+            "printedName": "hideToaster(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PTUEnhancedMessage",
+                "printedName": "Middle.PTUEnhancedMessage",
+                "usr": "c:objc(cs)PTUEnhancedMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI15ToastersActionsP11hideToasteryySo18PTUEnhancedMessageCF",
+            "mangledName": "$s7alertUI15ToastersActionsP11hideToasteryySo18PTUEnhancedMessageCF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.ToastersActions>",
+            "sugared_genericSig": "<Self where Self : alertUI.ToastersActions>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7alertUI15ToastersActionsP",
+        "mangledName": "$s7alertUI15ToastersActionsP",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AlertsControllerDelegate",
+        "printedName": "AlertsControllerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "alertConntroller",
+            "printedName": "alertConntroller(_:willPresentAlert:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertsController",
+                "printedName": "alertUI.AlertsController",
+                "usr": "c:@M@alertUI@objc(cs)AlertsController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertStruct",
+                "printedName": "alertUI.AlertStruct",
+                "usr": "s:7alertUI11AlertStructV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI24AlertsControllerDelegateP0A11Conntroller_16willPresentAlertyAA0cD0C_AA0I6StructVtF",
+            "mangledName": "$s7alertUI24AlertsControllerDelegateP0A11Conntroller_16willPresentAlertyAA0cD0C_AA0I6StructVtF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.AlertsControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : alertUI.AlertsControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "alertConntroller",
+            "printedName": "alertConntroller(_:didPresentAlert:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertsController",
+                "printedName": "alertUI.AlertsController",
+                "usr": "c:@M@alertUI@objc(cs)AlertsController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertStruct",
+                "printedName": "alertUI.AlertStruct",
+                "usr": "s:7alertUI11AlertStructV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI24AlertsControllerDelegateP0A11Conntroller_15didPresentAlertyAA0cD0C_AA0I6StructVtF",
+            "mangledName": "$s7alertUI24AlertsControllerDelegateP0A11Conntroller_15didPresentAlertyAA0cD0C_AA0I6StructVtF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.AlertsControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : alertUI.AlertsControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "alertConntroller",
+            "printedName": "alertConntroller(_:didDisappear:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertsController",
+                "printedName": "alertUI.AlertsController",
+                "usr": "c:@M@alertUI@objc(cs)AlertsController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertStruct",
+                "printedName": "alertUI.AlertStruct",
+                "usr": "s:7alertUI11AlertStructV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI24AlertsControllerDelegateP0A11Conntroller_12didDisappearyAA0cD0C_AA11AlertStructVtF",
+            "mangledName": "$s7alertUI24AlertsControllerDelegateP0A11Conntroller_12didDisappearyAA0cD0C_AA11AlertStructVtF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.AlertsControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : alertUI.AlertsControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7alertUI24AlertsControllerDelegateP",
+        "mangledName": "$s7alertUI24AlertsControllerDelegateP",
+        "moduleName": "alertUI",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AlertsController",
+        "printedName": "AlertsController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "alertUI.AlertsControllerDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7alertUI16AlertsControllerC8delegateAA0cD8Delegate_pSgvp",
+            "mangledName": "$s7alertUI16AlertsControllerC8delegateAA0cD8Delegate_pSgvp",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "alertUI.AlertsControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertsControllerDelegate",
+                        "printedName": "alertUI.AlertsControllerDelegate",
+                        "usr": "s:7alertUI24AlertsControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7alertUI16AlertsControllerC8delegateAA0cD8Delegate_pSgvg",
+                "mangledName": "$s7alertUI16AlertsControllerC8delegateAA0cD8Delegate_pSgvg",
+                "moduleName": "alertUI",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "alertUI.AlertsControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertsControllerDelegate",
+                        "printedName": "alertUI.AlertsControllerDelegate",
+                        "usr": "s:7alertUI24AlertsControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7alertUI16AlertsControllerC8delegateAA0cD8Delegate_pSgvs",
+                "mangledName": "$s7alertUI16AlertsControllerC8delegateAA0cD8Delegate_pSgvs",
+                "moduleName": "alertUI",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7alertUI16AlertsControllerC8delegateAA0cD8Delegate_pSgvM",
+                "mangledName": "$s7alertUI16AlertsControllerC8delegateAA0cD8Delegate_pSgvM",
+                "moduleName": "alertUI",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(containerView:overLayeredCustomView:urlBuilder:commonUIConfig:stylesUIConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AlertsController",
+                "printedName": "alertUI.AlertsController",
+                "usr": "c:@M@alertUI@objc(cs)AlertsController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PTUURLBuilder",
+                "printedName": "Middle.PTUURLBuilder",
+                "usr": "c:objc(cs)PTUURLBuilder"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7alertUI16AlertsControllerC13containerView017overLayeredCustomF010urlBuilder14commonUIConfig06stylesM0ACSo6UIViewCSg_AKSo13PTUURLBuilderCSDys11AnyHashableVypGAPtcfc",
+            "mangledName": "$s7alertUI16AlertsControllerC13containerView017overLayeredCustomF010urlBuilder14commonUIConfig06stylesM0ACSo6UIViewCSg_AKSo13PTUURLBuilderCSDys11AnyHashableVypGAPtcfc",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setSupportedOrientations",
+            "printedName": "setSupportedOrientations(orientationMask:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI16AlertsControllerC24setSupportedOrientations15orientationMaskySo022UIInterfaceOrientationI0V_tF",
+            "mangledName": "$s7alertUI16AlertsControllerC24setSupportedOrientations15orientationMaskySo022UIInterfaceOrientationI0V_tF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "finish",
+            "printedName": "finish()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI16AlertsControllerC6finishyyF",
+            "mangledName": "$s7alertUI16AlertsControllerC6finishyyF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AlertsController",
+                "printedName": "alertUI.AlertsController",
+                "usr": "c:@M@alertUI@objc(cs)AlertsController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@alertUI@objc(cs)AlertsController(im)init",
+            "mangledName": "$s7alertUI16AlertsControllerCACycfc",
+            "moduleName": "alertUI",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "suspend",
+            "printedName": "suspend()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI16AlertsControllerC7suspendyyF",
+            "mangledName": "$s7alertUI16AlertsControllerC7suspendyyF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unpause",
+            "printedName": "unpause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI16AlertsControllerC7unpauseyyF",
+            "mangledName": "$s7alertUI16AlertsControllerC7unpauseyyF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentAlert",
+            "printedName": "presentAlert(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertStruct",
+                "printedName": "alertUI.AlertStruct",
+                "usr": "s:7alertUI11AlertStructV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI16AlertsControllerC12presentAlertyyAA0F6StructVF",
+            "mangledName": "$s7alertUI16AlertsControllerC12presentAlertyyAA0F6StructVF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismissAlert",
+            "printedName": "dismissAlert(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertStruct",
+                "printedName": "alertUI.AlertStruct",
+                "usr": "s:7alertUI11AlertStructV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI16AlertsControllerC12dismissAlertyyAA0F6StructVF",
+            "mangledName": "$s7alertUI16AlertsControllerC12dismissAlertyyAA0F6StructVF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismissAlert",
+            "printedName": "dismissAlert(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI16AlertsControllerC12dismissAlertyySSF",
+            "mangledName": "$s7alertUI16AlertsControllerC12dismissAlertyySSF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showDefaultAlert",
+            "printedName": "showDefaultAlert(title:message:actions:alertIdentifier:actionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CommonUI.AlertAction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertAction",
+                    "printedName": "CommonUI.AlertAction",
+                    "usr": "c:@M@CommonUI@objc(cs)AlertAction"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((CommonUI.AlertMessageviewResult) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CommonUI.AlertMessageviewResult) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertMessageviewResult",
+                        "printedName": "CommonUI.AlertMessageviewResult",
+                        "usr": "s:8CommonUI22AlertMessageviewResultO"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI16AlertsControllerC16showDefaultAlert5title7message7actions0A10Identifier13actionHandlerySSSg_AJSay06CommonB00G6ActionCGAJyAK0G17MessageviewResultOcSgtF",
+            "mangledName": "$s7alertUI16AlertsControllerC16showDefaultAlert5title7message7actions0A10Identifier13actionHandlerySSSg_AJSay06CommonB00G6ActionCGAJyAK0G17MessageviewResultOcSgtF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showDefaultAlert",
+            "printedName": "showDefaultAlert(title:message:actions:priority:alertIdentifier:actionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CommonUI.AlertAction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertAction",
+                    "printedName": "CommonUI.AlertAction",
+                    "usr": "c:@M@CommonUI@objc(cs)AlertAction"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Priority",
+                "printedName": "alertUI.Priority",
+                "usr": "s:7alertUI8PriorityO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((CommonUI.AlertMessageviewResult) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CommonUI.AlertMessageviewResult) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertMessageviewResult",
+                        "printedName": "CommonUI.AlertMessageviewResult",
+                        "usr": "s:8CommonUI22AlertMessageviewResultO"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI16AlertsControllerC16showDefaultAlert5title7message7actions8priority0A10Identifier13actionHandlerySSSg_AKSay06CommonB00G6ActionCGAA8PriorityOAKyAL0G17MessageviewResultOcSgtF",
+            "mangledName": "$s7alertUI16AlertsControllerC16showDefaultAlert5title7message7actions8priority0A10Identifier13actionHandlerySSSg_AKSay06CommonB00G6ActionCGAA8PriorityOAKyAL0G17MessageviewResultOcSgtF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showDefaultAlert",
+            "printedName": "showDefaultAlert(title:message:style:actions:alertIdentifier:actionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CommonUI.AlertLabelTitle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertLabelTitle",
+                    "printedName": "CommonUI.AlertLabelTitle",
+                    "usr": "c:@M@CommonUI@objc(cs)AlertLabelTitle"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CommonUI.AlertLabelTitle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertLabelTitle",
+                    "printedName": "CommonUI.AlertLabelTitle",
+                    "usr": "c:@M@CommonUI@objc(cs)AlertLabelTitle"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PTUStyleView",
+                "printedName": "CommonUI.PTUStyleView",
+                "usr": "c:objc(cs)PTUStyleView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CommonUI.AlertAction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertAction",
+                    "printedName": "CommonUI.AlertAction",
+                    "usr": "c:@M@CommonUI@objc(cs)AlertAction"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((CommonUI.AlertMessageviewResult) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CommonUI.AlertMessageviewResult) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertMessageviewResult",
+                        "printedName": "CommonUI.AlertMessageviewResult",
+                        "usr": "s:8CommonUI22AlertMessageviewResultO"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI16AlertsControllerC16showDefaultAlert5title7message5style7actions0A10Identifier13actionHandlery06CommonB00G10LabelTitleCSg_ANSo12PTUStyleViewCSayAK0G6ActionCGSSSgyAK0G17MessageviewResultOcSgtF",
+            "mangledName": "$s7alertUI16AlertsControllerC16showDefaultAlert5title7message5style7actions0A10Identifier13actionHandlery06CommonB00G10LabelTitleCSg_ANSo12PTUStyleViewCSayAK0G6ActionCGSSSgyAK0G17MessageviewResultOcSgtF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showEnhancedMessageAlert",
+            "printedName": "showEnhancedMessageAlert(title:image:actions:alertIdentifier:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[alertUI.EnhancedMessageAction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EnhancedMessageAction",
+                    "printedName": "alertUI.EnhancedMessageAction",
+                    "usr": "s:7alertUI21EnhancedMessageActionV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonUI.EnhancedMessageAlertViewResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EnhancedMessageAlertViewResult",
+                    "printedName": "CommonUI.EnhancedMessageAlertViewResult",
+                    "usr": "s:8CommonUI30EnhancedMessageAlertViewResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI16AlertsControllerC24showEnhancedMessageAlert5title5image7actions0A10Identifier10completionySSSg_So7UIImageCSgSayAA0fG6ActionVGAJy06CommonB00fgH10ViewResultOctF",
+            "mangledName": "$s7alertUI16AlertsControllerC24showEnhancedMessageAlert5title5image7actions0A10Identifier10completionySSSg_So7UIImageCSgSayAA0fG6ActionVGAJy06CommonB00fgH10ViewResultOctF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showGameListAlert",
+            "printedName": "showGameListAlert(title:message:games:actions:alertIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CommonUI.AlertGameModel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertGameModel",
+                    "printedName": "CommonUI.AlertGameModel",
+                    "usr": "c:@M@CommonUI@objc(cs)AlertGameModel"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CommonUI.AlertAction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertAction",
+                    "printedName": "CommonUI.AlertAction",
+                    "usr": "c:@M@CommonUI@objc(cs)AlertAction"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI16AlertsControllerC17showGameListAlert5title7message5games7actions0A10IdentifierySSSg_AJSay06CommonB00hF5ModelCGSayAK0H6ActionCGAJtF",
+            "mangledName": "$s7alertUI16AlertsControllerC17showGameListAlert5title7message5games7actions0A10IdentifierySSSg_AJSay06CommonB00hF5ModelCGSayAK0H6ActionCGAJtF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showDropDownAlert",
+            "printedName": "showDropDownAlert(message:isHiddenDropDown:dropdownOptions:actions:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CommonUI.AlertAction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertAction",
+                    "printedName": "CommonUI.AlertAction",
+                    "usr": "c:@M@CommonUI@objc(cs)AlertAction"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.UInt?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.UInt?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.UInt?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt",
+                            "printedName": "Swift.UInt",
+                            "usr": "s:Su"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI16AlertsControllerC17showDropDownAlert7message08isHiddenfG015dropdownOptions7actions10completionySSSg_SbSaySSGSay06CommonB00H6ActionCGySuSgcSgtF",
+            "mangledName": "$s7alertUI16AlertsControllerC17showDropDownAlert7message08isHiddenfG015dropdownOptions7actions10completionySSSg_SbSaySSGSay06CommonB00H6ActionCGySuSgcSgtF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showToaster",
+            "printedName": "showToaster(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PTUEnhancedMessage",
+                "printedName": "Middle.PTUEnhancedMessage",
+                "usr": "c:objc(cs)PTUEnhancedMessage"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonUI.ToasterMessageviewResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ToasterMessageviewResult",
+                    "printedName": "CommonUI.ToasterMessageviewResult",
+                    "usr": "s:8CommonUI24ToasterMessageviewResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI16AlertsControllerC11showToaster_10completionySo18PTUEnhancedMessageC_y06CommonB00F17MessageviewResultOctF",
+            "mangledName": "$s7alertUI16AlertsControllerC11showToaster_10completionySo18PTUEnhancedMessageC_y06CommonB00F17MessageviewResultOctF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideToaster",
+            "printedName": "hideToaster(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PTUEnhancedMessage",
+                "printedName": "Middle.PTUEnhancedMessage",
+                "usr": "c:objc(cs)PTUEnhancedMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI16AlertsControllerC11hideToasteryySo18PTUEnhancedMessageCF",
+            "mangledName": "$s7alertUI16AlertsControllerC11hideToasteryySo18PTUEnhancedMessageCF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "alertRouter",
+            "printedName": "alertRouter(_:willPresentAlert:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertsRouter",
+                "printedName": "alertUI.AlertsRouter",
+                "usr": "s:7alertUI12AlertsRouterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertStruct",
+                "printedName": "alertUI.AlertStruct",
+                "usr": "s:7alertUI11AlertStructV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI16AlertsControllerC0A6Router_16willPresentAlertyAA0cE0C_AA0H6StructVtF",
+            "mangledName": "$s7alertUI16AlertsControllerC0A6Router_16willPresentAlertyAA0cE0C_AA0H6StructVtF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "alertRouter",
+            "printedName": "alertRouter(_:didPresentAlert:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertsRouter",
+                "printedName": "alertUI.AlertsRouter",
+                "usr": "s:7alertUI12AlertsRouterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertStruct",
+                "printedName": "alertUI.AlertStruct",
+                "usr": "s:7alertUI11AlertStructV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI16AlertsControllerC0A6Router_15didPresentAlertyAA0cE0C_AA0H6StructVtF",
+            "mangledName": "$s7alertUI16AlertsControllerC0A6Router_15didPresentAlertyAA0cE0C_AA0H6StructVtF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "alertRouter",
+            "printedName": "alertRouter(_:didDisappear:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertsRouter",
+                "printedName": "alertUI.AlertsRouter",
+                "usr": "s:7alertUI12AlertsRouterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertStruct",
+                "printedName": "alertUI.AlertStruct",
+                "usr": "s:7alertUI11AlertStructV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI16AlertsControllerC0A6Router_12didDisappearyAA0cE0C_AA11AlertStructVtF",
+            "mangledName": "$s7alertUI16AlertsControllerC0A6Router_12didDisappearyAA0cE0C_AA11AlertStructVtF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@alertUI@objc(cs)AlertsController",
+        "mangledName": "$s7alertUI16AlertsControllerC",
+        "moduleName": "alertUI",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AlertsStateManagement",
+            "printedName": "AlertsStateManagement",
+            "usr": "s:7alertUI21AlertsStateManagementP",
+            "mangledName": "$s7alertUI21AlertsStateManagementP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AlertsRouterActions",
+            "printedName": "AlertsRouterActions",
+            "usr": "s:7alertUI19AlertsRouterActionsP",
+            "mangledName": "$s7alertUI19AlertsRouterActionsP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AlertsActions",
+            "printedName": "AlertsActions",
+            "usr": "s:7alertUI13AlertsActionsP",
+            "mangledName": "$s7alertUI13AlertsActionsP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ToastersActions",
+            "printedName": "ToastersActions",
+            "usr": "s:7alertUI15ToastersActionsP",
+            "mangledName": "$s7alertUI15ToastersActionsP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AlertsRouterDelegate",
+            "printedName": "AlertsRouterDelegate",
+            "usr": "s:7alertUI20AlertsRouterDelegateP",
+            "mangledName": "$s7alertUI20AlertsRouterDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Middle",
+        "printedName": "Middle",
+        "declKind": "Import",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonUI",
+        "printedName": "CommonUI",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonUI",
+        "printedName": "CommonUI",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonUI",
+        "printedName": "CommonUI",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Middle",
+        "printedName": "Middle",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonUI",
+        "printedName": "CommonUI",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Middle",
+        "printedName": "Middle",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Middle",
+        "printedName": "Middle",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonUI",
+        "printedName": "CommonUI",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToasterModel",
+        "printedName": "ToasterModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(message:handler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ToasterModel",
+                "printedName": "alertUI.ToasterModel",
+                "usr": "s:7alertUI12ToasterModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PTUEnhancedMessage",
+                "printedName": "Middle.PTUEnhancedMessage",
+                "usr": "c:objc(cs)PTUEnhancedMessage"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonUI.ToasterMessageviewResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ToasterMessageviewResult",
+                    "printedName": "CommonUI.ToasterMessageviewResult",
+                    "usr": "s:8CommonUI24ToasterMessageviewResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7alertUI12ToasterModelC7message7handlerACSo18PTUEnhancedMessageC_y06CommonB00C17MessageviewResultOctcfc",
+            "mangledName": "$s7alertUI12ToasterModelC7message7handlerACSo18PTUEnhancedMessageC_y06CommonB00C17MessageviewResultOctcfc",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ToasterModel",
+                "printedName": "alertUI.ToasterModel",
+                "usr": "s:7alertUI12ToasterModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ToasterModel",
+                "printedName": "alertUI.ToasterModel",
+                "usr": "s:7alertUI12ToasterModelC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI12ToasterModelC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7alertUI12ToasterModelC2eeoiySbAC_ACtFZ",
+            "moduleName": "alertUI",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7alertUI12ToasterModelC",
+        "mangledName": "$s7alertUI12ToasterModelC",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Middle",
+        "printedName": "Middle",
+        "declKind": "Import",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Tools",
+        "printedName": "Tools",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AlertsRouterDelegate",
+        "printedName": "AlertsRouterDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "alertRouter",
+            "printedName": "alertRouter(_:willPresentAlert:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertsRouter",
+                "printedName": "alertUI.AlertsRouter",
+                "usr": "s:7alertUI12AlertsRouterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertStruct",
+                "printedName": "alertUI.AlertStruct",
+                "usr": "s:7alertUI11AlertStructV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI20AlertsRouterDelegateP0aD0_16willPresentAlertyAA0cD0C_AA0H6StructVtF",
+            "mangledName": "$s7alertUI20AlertsRouterDelegateP0aD0_16willPresentAlertyAA0cD0C_AA0H6StructVtF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.AlertsRouterDelegate>",
+            "sugared_genericSig": "<Self where Self : alertUI.AlertsRouterDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "alertRouter",
+            "printedName": "alertRouter(_:didPresentAlert:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertsRouter",
+                "printedName": "alertUI.AlertsRouter",
+                "usr": "s:7alertUI12AlertsRouterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertStruct",
+                "printedName": "alertUI.AlertStruct",
+                "usr": "s:7alertUI11AlertStructV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI20AlertsRouterDelegateP0aD0_15didPresentAlertyAA0cD0C_AA0H6StructVtF",
+            "mangledName": "$s7alertUI20AlertsRouterDelegateP0aD0_15didPresentAlertyAA0cD0C_AA0H6StructVtF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.AlertsRouterDelegate>",
+            "sugared_genericSig": "<Self where Self : alertUI.AlertsRouterDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "alertRouter",
+            "printedName": "alertRouter(_:didDisappear:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertsRouter",
+                "printedName": "alertUI.AlertsRouter",
+                "usr": "s:7alertUI12AlertsRouterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertStruct",
+                "printedName": "alertUI.AlertStruct",
+                "usr": "s:7alertUI11AlertStructV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI20AlertsRouterDelegateP0aD0_12didDisappearyAA0cD0C_AA11AlertStructVtF",
+            "mangledName": "$s7alertUI20AlertsRouterDelegateP0aD0_12didDisappearyAA0cD0C_AA11AlertStructVtF",
+            "moduleName": "alertUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : alertUI.AlertsRouterDelegate>",
+            "sugared_genericSig": "<Self where Self : alertUI.AlertsRouterDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7alertUI20AlertsRouterDelegateP",
+        "mangledName": "$s7alertUI20AlertsRouterDelegateP",
+        "moduleName": "alertUI",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AlertsRouter",
+        "printedName": "AlertsRouter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "suspend",
+            "printedName": "suspend()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI12AlertsRouterC7suspendyyF",
+            "mangledName": "$s7alertUI12AlertsRouterC7suspendyyF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unpause",
+            "printedName": "unpause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI12AlertsRouterC7unpauseyyF",
+            "mangledName": "$s7alertUI12AlertsRouterC7unpauseyyF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentAlert",
+            "printedName": "presentAlert(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertStruct",
+                "printedName": "alertUI.AlertStruct",
+                "usr": "s:7alertUI11AlertStructV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI12AlertsRouterC12presentAlertyyAA0F6StructVF",
+            "mangledName": "$s7alertUI12AlertsRouterC12presentAlertyyAA0F6StructVF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismissAlert",
+            "printedName": "dismissAlert(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertStruct",
+                "printedName": "alertUI.AlertStruct",
+                "usr": "s:7alertUI11AlertStructV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI12AlertsRouterC12dismissAlertyyAA0F6StructVF",
+            "mangledName": "$s7alertUI12AlertsRouterC12dismissAlertyyAA0F6StructVF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismissAlert",
+            "printedName": "dismissAlert(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI12AlertsRouterC12dismissAlertyySSF",
+            "mangledName": "$s7alertUI12AlertsRouterC12dismissAlertyySSF",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7alertUI12AlertsRouterC",
+        "mangledName": "$s7alertUI12AlertsRouterC",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AlertsStateManagement",
+            "printedName": "AlertsStateManagement",
+            "usr": "s:7alertUI21AlertsStateManagementP",
+            "mangledName": "$s7alertUI21AlertsStateManagementP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AlertsRouterActions",
+            "printedName": "AlertsRouterActions",
+            "usr": "s:7alertUI19AlertsRouterActionsP",
+            "mangledName": "$s7alertUI19AlertsRouterActionsP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonUI",
+        "printedName": "CommonUI",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Middle",
+        "printedName": "Middle",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonUI",
+        "printedName": "CommonUI",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Middle",
+        "printedName": "Middle",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonUI",
+        "printedName": "CommonUI",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "Import",
+        "name": "ImageKit",
+        "printedName": "ImageKit",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Middle",
+        "printedName": "Middle",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EnhancedMessageAction",
+        "printedName": "EnhancedMessageAction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7alertUI21EnhancedMessageActionV5titleSSvp",
+            "mangledName": "$s7alertUI21EnhancedMessageActionV5titleSSvp",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7alertUI21EnhancedMessageActionV5titleSSvg",
+                "mangledName": "$s7alertUI21EnhancedMessageActionV5titleSSvg",
+                "moduleName": "alertUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AlertButtonType",
+                "printedName": "CommonUI.AlertButtonType",
+                "usr": "s:8CommonUI15AlertButtonTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7alertUI21EnhancedMessageActionV4type06CommonB015AlertButtonTypeOvp",
+            "mangledName": "$s7alertUI21EnhancedMessageActionV4type06CommonB015AlertButtonTypeOvp",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertButtonType",
+                    "printedName": "CommonUI.AlertButtonType",
+                    "usr": "s:8CommonUI15AlertButtonTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7alertUI21EnhancedMessageActionV4type06CommonB015AlertButtonTypeOvg",
+                "mangledName": "$s7alertUI21EnhancedMessageActionV4type06CommonB015AlertButtonTypeOvg",
+                "moduleName": "alertUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "handler",
+            "printedName": "handler",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7alertUI21EnhancedMessageActionV7handleryycvp",
+            "mangledName": "$s7alertUI21EnhancedMessageActionV7handleryycvp",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7alertUI21EnhancedMessageActionV7handleryycvg",
+                "mangledName": "$s7alertUI21EnhancedMessageActionV7handleryycvg",
+                "moduleName": "alertUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(title:type:handler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EnhancedMessageAction",
+                "printedName": "alertUI.EnhancedMessageAction",
+                "usr": "s:7alertUI21EnhancedMessageActionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertButtonType",
+                "printedName": "CommonUI.AlertButtonType",
+                "usr": "s:8CommonUI15AlertButtonTypeO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7alertUI21EnhancedMessageActionV5title4type7handlerACSS_06CommonB015AlertButtonTypeOyyctcfc",
+            "mangledName": "$s7alertUI21EnhancedMessageActionV5title4type7handlerACSS_06CommonB015AlertButtonTypeOyyctcfc",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7alertUI21EnhancedMessageActionV",
+        "mangledName": "$s7alertUI21EnhancedMessageActionV",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Priority",
+        "printedName": "Priority",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "emergency",
+            "printedName": "emergency",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(alertUI.Priority.Type) -> alertUI.Priority",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Priority",
+                    "printedName": "alertUI.Priority",
+                    "usr": "s:7alertUI8PriorityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "alertUI.Priority.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Priority",
+                        "printedName": "alertUI.Priority",
+                        "usr": "s:7alertUI8PriorityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7alertUI8PriorityO9emergencyyA2CmF",
+            "mangledName": "$s7alertUI8PriorityO9emergencyyA2CmF",
+            "moduleName": "alertUI"
+          },
+          {
+            "kind": "Var",
+            "name": "high",
+            "printedName": "high",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(alertUI.Priority.Type) -> alertUI.Priority",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Priority",
+                    "printedName": "alertUI.Priority",
+                    "usr": "s:7alertUI8PriorityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "alertUI.Priority.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Priority",
+                        "printedName": "alertUI.Priority",
+                        "usr": "s:7alertUI8PriorityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7alertUI8PriorityO4highyA2CmF",
+            "mangledName": "$s7alertUI8PriorityO4highyA2CmF",
+            "moduleName": "alertUI"
+          },
+          {
+            "kind": "Var",
+            "name": "normal",
+            "printedName": "normal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(alertUI.Priority.Type) -> alertUI.Priority",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Priority",
+                    "printedName": "alertUI.Priority",
+                    "usr": "s:7alertUI8PriorityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "alertUI.Priority.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Priority",
+                        "printedName": "alertUI.Priority",
+                        "usr": "s:7alertUI8PriorityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7alertUI8PriorityO6normalyA2CmF",
+            "mangledName": "$s7alertUI8PriorityO6normalyA2CmF",
+            "moduleName": "alertUI"
+          },
+          {
+            "kind": "Var",
+            "name": "low",
+            "printedName": "low",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(alertUI.Priority.Type) -> alertUI.Priority",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Priority",
+                    "printedName": "alertUI.Priority",
+                    "usr": "s:7alertUI8PriorityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "alertUI.Priority.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Priority",
+                        "printedName": "alertUI.Priority",
+                        "usr": "s:7alertUI8PriorityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7alertUI8PriorityO3lowyA2CmF",
+            "mangledName": "$s7alertUI8PriorityO3lowyA2CmF",
+            "moduleName": "alertUI"
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[alertUI.Priority]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Priority",
+                    "printedName": "alertUI.Priority",
+                    "usr": "s:7alertUI8PriorityO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7alertUI8PriorityO8allCasesSayACGvpZ",
+            "mangledName": "$s7alertUI8PriorityO8allCasesSayACGvpZ",
+            "moduleName": "alertUI",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[alertUI.Priority]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Priority",
+                        "printedName": "alertUI.Priority",
+                        "usr": "s:7alertUI8PriorityO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7alertUI8PriorityO8allCasesSayACGvgZ",
+                "mangledName": "$s7alertUI8PriorityO8allCasesSayACGvgZ",
+                "moduleName": "alertUI",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "alertUI.Priority?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Priority",
+                    "printedName": "alertUI.Priority",
+                    "usr": "s:7alertUI8PriorityO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7alertUI8PriorityO8rawValueACSgSu_tcfc",
+            "mangledName": "$s7alertUI8PriorityO8rawValueACSgSu_tcfc",
+            "moduleName": "alertUI",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7alertUI8PriorityO8rawValueSuvp",
+            "mangledName": "$s7alertUI8PriorityO8rawValueSuvp",
+            "moduleName": "alertUI",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7alertUI8PriorityO8rawValueSuvg",
+                "mangledName": "$s7alertUI8PriorityO8rawValueSuvg",
+                "moduleName": "alertUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7alertUI8PriorityO",
+        "mangledName": "$s7alertUI8PriorityO",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "UInt",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[alertUI.Priority]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Priority",
+                        "printedName": "alertUI.Priority",
+                        "usr": "s:7alertUI8PriorityO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AlertStruct",
+        "printedName": "AlertStruct",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(view:priority:identifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AlertStruct",
+                "printedName": "alertUI.AlertStruct",
+                "usr": "s:7alertUI11AlertStructV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Priority",
+                "printedName": "alertUI.Priority",
+                "hasDefaultArg": true,
+                "usr": "s:7alertUI8PriorityO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7alertUI11AlertStructV4view8priority10identifierACSo6UIViewC_AA8PriorityOSSSgtcfc",
+            "mangledName": "$s7alertUI11AlertStructV4view8priority10identifierACSo6UIViewC_AA8PriorityOSSSgtcfc",
+            "moduleName": "alertUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertStruct",
+                "printedName": "alertUI.AlertStruct",
+                "usr": "s:7alertUI11AlertStructV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertStruct",
+                "printedName": "alertUI.AlertStruct",
+                "usr": "s:7alertUI11AlertStructV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7alertUI11AlertStructV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7alertUI11AlertStructV2eeoiySbAC_ACtFZ",
+            "moduleName": "alertUI",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7alertUI11AlertStructV",
+        "mangledName": "$s7alertUI11AlertStructV",
+        "moduleName": "alertUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "alertUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSDate",
+        "printedName": "NSDate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "<",
+            "printedName": "<(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDate",
+                "printedName": "Foundation.NSDate",
+                "usr": "c:objc(cs)NSDate"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDate",
+                "printedName": "Foundation.NSDate",
+                "usr": "c:objc(cs)NSDate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6NSDateC7alertUIE1loiySbAB_ABtFZ",
+            "mangledName": "$sSo6NSDateC7alertUIE1loiySbAB_ABtFZ",
+            "moduleName": "alertUI",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSDate",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSDate",
+        "declAttributes": [
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8572,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsController.swift",
+      "kind": "StringLiteral",
+      "offset": 4050,
+      "length": 16,
+      "value": "\"alertUI.AlertsController\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsController.swift",
+      "kind": "StringLiteral",
+      "offset": 10689,
+      "length": 60,
+      "value": "\"alertStyle should be present. Check alertsConfigController\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Root view controller\/RootViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 357,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Root view controller\/RootViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 973,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ToastersRouter\/ToasterRouter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 204,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ToastersRouter\/ToasterRouter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 252,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ToastersRouter\/ToasterRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 452,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ToastersRouter\/ToasterRouter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 923,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ToastersRouter\/ToasterRouter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 866,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ToastersRouter\/ToasterRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 1963,
+      "length": 34,
+      "value": "\"com.toasters_router.serial.queue\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ToastersRouter\/ToasterRouter.swift",
+      "kind": "FloatLiteral",
+      "offset": 2195,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ToastersRouter\/ToasterRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2209,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ToastersRouter\/ToasterRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2628,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ToastersRouter\/ToasterRouter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3128,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ToastersRouter\/ToasterRouter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3235,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ToastersRouter\/ToasterRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 3272,
+      "length": 81,
+      "value": "\"⚠️ 'ToasterRouter' race condition state. Try to unpause from the idle state\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ToastersRouter\/ToasterRouter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3408,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ToastersRouter\/ToasterRouter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3815,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ConfigController\/AlertsConfigController.swift",
+      "kind": "StringLiteral",
+      "offset": 1109,
+      "length": 14,
+      "value": "\"alert:alert_\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ConfigController\/AlertsConfigController.swift",
+      "kind": "StringLiteral",
+      "offset": 1392,
+      "length": 32,
+      "value": "\"enhanced_message:popup_message\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ConfigController\/AlertsConfigController.swift",
+      "kind": "StringLiteral",
+      "offset": 1735,
+      "length": 25,
+      "value": "\"toaster:toaster_message\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ConfigController\/AlertsConfigController.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 22,
+      "value": "\"alertUI.AlertsConfigController\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/Common\/UIAlertWindow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 460,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ToastersRouter\/ToasterQueue.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 26,
+      "value": "\"com.toaster.serial.queue\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertsRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 766,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertsRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 905,
+      "length": 32,
+      "value": "\"com.alerts_router.serial.queue\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertsRouter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1437,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertsRouter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1380,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertsRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2036,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertsRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2238,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertsRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3106,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertsRouter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3330,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertsRouter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3437,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertsRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 3474,
+      "length": 80,
+      "value": "\"⚠️ 'AlertsRouter' race condition state. Try to unpause from the idle state\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertsRouter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3609,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertsQueue.swift",
+      "kind": "StringLiteral",
+      "offset": 272,
+      "length": 31,
+      "value": "\"com.alerts_queue.serial.queue\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Alert view controller\/AlertViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 893,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Toasters view controller\/ToastersViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Toasters view controller\/ToastersViewController.swift",
+      "kind": "Array",
+      "offset": 927,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Toasters view controller\/ToastersViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1273,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Toasters view controller\/ToastersViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1800,
+      "length": 6,
+      "value": "\"cell\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Toasters view controller\/ToastersViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2121,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Toasters view controller\/ToastersViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2326,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Toasters view controller\/ToastersViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4400,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Toasters view controller\/ToastersViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4455,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Toasters view controller\/ToastersViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4556,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Toasters view controller\/ToastersViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4568,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Toasters view controller\/ToastersViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4832,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Toasters view controller\/ToastersViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5441,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Toasters view controller\/ToastersViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5966,
+      "length": 6,
+      "value": "\"cell\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Toasters view controller\/ToastersViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7436,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Toasters view controller\/ToastersViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 7595,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Toasters view controller\/ToastersViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7611,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Toasters view controller\/ToastersViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 7718,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Toasters view controller\/ToastersViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7734,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Toasters view controller\/ToastersViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7838,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/ViewController\/Toasters view controller\/ToastersViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7944,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/Factory\/CommonAlertsViewFactory + EnhancedMessageAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 2421,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertStruct.swift",
+      "kind": "IntegerLiteral",
+      "offset": 281,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertStruct.swift",
+      "kind": "IntegerLiteral",
+      "offset": 287,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertStruct.swift",
+      "kind": "IntegerLiteral",
+      "offset": 295,
+      "length": 3,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertStruct.swift",
+      "kind": "IntegerLiteral",
+      "offset": 281,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertStruct.swift",
+      "kind": "IntegerLiteral",
+      "offset": 287,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertStruct.swift",
+      "kind": "IntegerLiteral",
+      "offset": 295,
+      "length": 3,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertStruct.swift",
+      "kind": "IntegerLiteral",
+      "offset": 281,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertStruct.swift",
+      "kind": "IntegerLiteral",
+      "offset": 287,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ta_ua_nc-bldsrv-mac\/workspace\/iOS_NativeSDK\/unified_ios_sdk\/alertUI\/alertUI\/sources\/AlertsRouter\/AlertStruct.swift",
+      "kind": "IntegerLiteral",
+      "offset": 295,
+      "length": 3,
+      "value": "3"
+    }
+  ]
+}

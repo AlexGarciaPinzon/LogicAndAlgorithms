@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <meta name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi, user-scalable=no, viewport-fit=cover" id="meta-viewport">
+    <style type="text/css">
+			iframe{
+				position: absolute;
+				height: 0;
+				max-height: 100vh;
+				min-height: 100vh;
+				width: 0;
+      			max-width: 100vw;
+      			min-width: 100vw;
+				top: 0;
+				left: 0;
+				border: 0;
+			}
+		</style>
+  </head>
+  <body>
+    <script>
+			var nw = (function() {
+				const cpFrame = createFrame();
+				registerPostHandler();
+				function createFrame() {
+					let frame = document.createElement("iframe");
+					frame.src = "{original_url}";
+					frame.setAttribute("id", "cp-frame");
+					document.body.appendChild(frame);
+					console.log("LOCATION:" + window.location.search);
+					return frame;
+				}
+				
+				function registerPostHandler() {
+					window.addEventListener("message", function(e) {
+						try {
+							window.webkit.messageHandlers.CPHTML5ToNativeiOS.postMessage(e.data);	
+						} catch (err) {
+							console.warn(" cannot find window.webkit.messageHandlers.CPHTML5ToNativeiOS.postMessage function");
+						}
+					})
+				}
+
+				return {
+					sendToCP: function(msg) {
+						//send to cp
+						cpFrame.contentWindow.postMessage(msg, "*");
+					}
+				}
+			})();
+		</script>
+  </body>
+</html>

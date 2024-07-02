@@ -1,0 +1,6 @@
+framework module Middle {
+  umbrella header "Middle.h"
+  export *
+
+  module * { export * }
+}

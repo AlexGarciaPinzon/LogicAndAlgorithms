@@ -1,0 +1,11 @@
+framework module CommonUI {
+  umbrella header "CommonUI.h"
+  export *
+
+  module * { export * }
+}
+
+module CommonUI.Swift {
+  header "CommonUI-Swift.h"
+  requires objc
+}

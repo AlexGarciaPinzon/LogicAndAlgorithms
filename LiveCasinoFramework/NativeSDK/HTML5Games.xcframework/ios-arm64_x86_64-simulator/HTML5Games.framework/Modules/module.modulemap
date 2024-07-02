@@ -1,0 +1,6 @@
+framework module HTML5Games {
+  umbrella header "HTML5Games.h"
+  export *
+
+  module * { export * }
+}

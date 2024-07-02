@@ -1,0 +1,11 @@
+framework module Translations {
+  umbrella header "Translations.h"
+  export *
+
+  module * { export * }
+}
+
+module Translations.Swift {
+  header "Translations-Swift.h"
+  requires objc
+}

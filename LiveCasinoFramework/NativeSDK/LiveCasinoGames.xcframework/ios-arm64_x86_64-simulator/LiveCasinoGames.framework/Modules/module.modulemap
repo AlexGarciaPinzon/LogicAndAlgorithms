@@ -1,0 +1,11 @@
+framework module LiveCasinoGames {
+  umbrella header "LiveCasinoGames.h"
+  export *
+
+  module * { export * }
+}
+
+module LiveCasinoGames.Swift {
+  header "LiveCasinoGames-Swift.h"
+  requires objc
+}
