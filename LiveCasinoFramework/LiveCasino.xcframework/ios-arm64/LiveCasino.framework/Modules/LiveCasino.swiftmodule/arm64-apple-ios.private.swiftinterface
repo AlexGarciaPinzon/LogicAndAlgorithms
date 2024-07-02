@@ -1,0 +1,110 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LiveCasino
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import LiveCasino
+import Swift
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public protocol LCRootViewControllerDelegate : ObjectiveC.NSObjectProtocol {
+  @objc func liveCasinoRoot(_ root: LiveCasino.LCRootViewController, didStopWithError: (any Swift.Error)?)
+  @objc func liveCasinoRoot(_ root: LiveCasino.LCRootViewController, needOpenUrl: Swift.String, withTitle: Swift.String?, type: Swift.String?)
+  @objc optional func liveCasinoRoot(_ root: LiveCasino.LCRootViewController, onCrossLaunchWithGameCode: Swift.String, originGame: Swift.String?)
+  @objc optional func liveCasinoRoot(_ root: LiveCasino.LCRootViewController, onGameChanged gameCode: Swift.String, launchAlias: Swift.String)
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class LCRootViewController : UIKit.UIViewController {
+  @objc @_Concurrency.MainActor(unsafe) convenience public init(config: LiveCasino.LCConfig, launchVariant: LiveCasino.LCLaunchVariant, tokenData: LiveCasino.LCTokenData, delegate: any LiveCasino.LCRootViewControllerDelegate)
+  @objc deinit
+  @objc @_Concurrency.MainActor(unsafe) public func tryStop(callback: ((_ closed: Swift.Bool) -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) public func scheduleStop(callback: (() -> Swift.Void)?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var prefersStatusBarHidden: Swift.Bool {
+    @objc get
+  }
+}
+extension LiveCasino.LCRootViewController : WebKit.WKNavigationDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didReceive challenge: Foundation.URLAuthenticationChallenge, completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void)
+}
+extension LiveCasino.LCRootViewController : WebKit.WKUIDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, runJavaScriptTextInputPanelWithPrompt prompt: Swift.String, defaultText: Swift.String?, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping (Swift.String?) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, runJavaScriptAlertPanelWithMessage message: Swift.String, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, runJavaScriptConfirmPanelWithMessage message: Swift.String, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
+}
+@objc @objcMembers public class LCConfig : ObjectiveC.NSObject {
+  @objc final public let casinoName: Swift.String
+  @objc final public let endpoints: [Foundation.URL]
+  @objc final public let previewMode: Swift.Bool
+  @objc final public let languageCode: LiveCasino.LCLanguageCode
+  @objc final public let loaderBaseUrl: Foundation.URL?
+  @objc final public let imsClientType: Swift.String?
+  @objc final public let imsDeliveryPlatform: Swift.String?
+  @objc final public let imsClientSkin: Swift.String?
+  @objc final public let configurationKey: Swift.String?
+  @objc final public let wrapperIdentifier: Swift.String
+  @objc final public let useTLS: Foundation.NSNumber?
+  @objc final public let originGame: Swift.String?
+  final public let delegateGameLaunch: Swift.Bool?
+  public init(casinoName: Swift.String, endpoints: [Foundation.URL], previewMode: Swift.Bool, languageCode: LiveCasino.LCLanguageCode, loaderBaseUrl: Foundation.URL?, imsClientType: Swift.String?, imsClientSkin: Swift.String?, imsDeliveryPlatform: Swift.String?, configurationKey: Swift.String?, wrapperIdentifier: Swift.String, useTLS: Foundation.NSNumber?, originGame: Swift.String?, delegateGameLaunch: Swift.Bool?)
+  @objc convenience public init(casinoName: Swift.String, endpoints: [Foundation.URL], previewMode: Swift.Bool, languageCode: LiveCasino.LCLanguageCode, loaderBaseUrl: Foundation.URL?, imsClientType: Swift.String?, imsClientSkin: Swift.String?, imsDeliveryPlatform: Swift.String?, configurationKey: Swift.String?, wrapperIdentifier: Swift.String, useTLS: Foundation.NSNumber?)
+  convenience public init(casinoName: Swift.String, endpoints: [Foundation.URL], previewMode: Swift.Bool, languageCode: LiveCasino.LCLanguageCode, loaderBaseUrl: Foundation.URL?, imsClientType: Swift.String?, imsClientSkin: Swift.String?, imsDeliveryPlatform: Swift.String?, configurationKey: Swift.String?, wrapperIdentifier: Swift.String, useTLS: Foundation.NSNumber?, delegateGameLaunch: Swift.Bool?)
+  @objc deinit
+}
+@objc public enum LCTokenType : Swift.Int {
+  case temp
+  case external
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @objcMembers public class LCTokenData : ObjectiveC.NSObject {
+  @objc final public let username: Swift.String
+  @objc final public let token: Swift.String
+  @objc final public let type: LiveCasino.LCTokenType
+  @objc public init(username: Swift.String, token: Swift.String, type: LiveCasino.LCTokenType)
+  @objc deinit
+}
+@objc public enum LCLanguageCode : Swift.Int {
+  case EN, BG, CH, CS, DA, DE, ES, ESMX, FI, FR, ID, IT, JA, KO, MS, NL, RO, RU, SK, SV, ZHCN, TH, VI, PT, ET, EL, NO, PL
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @objcMembers public class LCGameLimit : ObjectiveC.NSObject {
+  @objc final public let min: Swift.Int64
+  @objc final public let max: Swift.Int64
+  @objc public init(min: Swift.Int64, max: Swift.Int64)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class LCLaunchVariant : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @objcMembers public class LCLaunchVariantAlias : LiveCasino.LCLaunchVariant {
+  @objc final public let launchAlias: Swift.String
+  @objc public init(launchAlias: Swift.String)
+  @objc deinit
+}
+@objc @objcMembers public class LCLaunchVariantTable : LiveCasino.LCLaunchVariantAlias {
+  @objc final public let gameLimit: LiveCasino.LCGameLimit?
+  @objc final public let preferredSeat: Foundation.NSNumber?
+  @objc public init(launchAlias: Swift.String, gameLimit: LiveCasino.LCGameLimit?, preferredSeat: Foundation.NSNumber?)
+  @objc deinit
+}
+@objc @objcMembers public class LCLaunchVariantLobby : LiveCasino.LCLaunchVariant {
+  @objc final public let launchAlias: Swift.String?
+  @objc public init(launchAlias: Swift.String? = nil)
+  @objc deinit
+}
+extension LiveCasino.LCTokenType : Swift.Equatable {}
+extension LiveCasino.LCTokenType : Swift.Hashable {}
+extension LiveCasino.LCTokenType : Swift.RawRepresentable {}
+extension LiveCasino.LCLanguageCode : Swift.Equatable {}
+extension LiveCasino.LCLanguageCode : Swift.Hashable {}
+extension LiveCasino.LCLanguageCode : Swift.RawRepresentable {}

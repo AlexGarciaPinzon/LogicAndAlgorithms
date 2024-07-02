@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=10;IE=Edge,chrome=1">
+	<meta id="viewport" name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="description" content="Jackpot">
+
+	<title>Jackpot</title>
+
+	<!-- Favicon Icon -->
+	<link rel="icon" type="image/png" href="images/favicon.png" sizes="300x300">
+
+	<!-- Main styles -->
+	<link rel="stylesheet" type='text/css' href="css/styles.css">
+
+</head>
+
+<body>
+<!-- Loading screen -->
+<div class="loading-screen" data-name="loadingScreenContainer">
+	<div class="loading-screen__clouds clouds-one" data-name="cloudOne"></div>
+	<div class="loading-screen__clouds clouds-two" data-name="cloudTwo"></div>
+	<div class="loading-screen__clouds clouds-three" data-name="cloudThree"></div>
+	<div class="loading-screen__clouds clouds-four" data-name="cloudFour"></div>
+
+	<div class="loading-screen__content">
+		<div class="logotype"></div>
+
+		<div id="loading_screen_progressive" class="title"></div>
+
+		<div class="progress-bar__wrapper">
+			<div class="progress-bar">
+				<div class="progress-bar__loading" data-name="progressBarLoading"></div>
+			</div>
+
+			<div class="progress-bar__label">
+				<span id="loading_screen_game_promt"></span>
+				<span data-name="progressBarTimer" class="progress-bar__value"></span>
+				<span id="ceremony_screen_seconds"></span>
+			</div>
+		</div>
+	</div>
+
+	<div class="loading-screen__clouds clouds-five" data-name="cloudFive"></div>
+	<div class="loading-screen__clouds clouds-six" data-name="cloudSix"></div>
+</div>
+
+<!-- Content -->
+<div class="main-container">
+	<!-- container -->
+	<div class="container" data-name="gameContainer">
+		<div class="temple">
+			<div class="temple__parfenon">
+				<img class="temple__parfenon__img" src="./images/temple/bg_Landscape_house.png" alt="">
+			</div>
+
+			<div class="temple__container" data-name="templeContainer">
+				<div class="winScreen__container" data-name="winScreenContainer">
+					<div class="winScreen__content">
+						<div id="ceremony_screen_win_message" class="winScreen__content__header"></div>
+						<div class="winScreen__content__logo"></div>
+						<div class="winScreen__content__footer"></div>
+					</div>
+
+					<div class="winScreen__amount">
+						<div class="winScreen__amount__value">
+							<span class="winScreen__amount__value_currency" data-name="winScreenCurrency"></span><span class="winScreen__amount__value_amount" data-name="winScreenAmount"></span>
+						</div>
+					</div>
+
+					<div class="winScreen__continueBtn_wrapper" data-name="winCeremonyBtn">
+						<div id="ceremony_screen_continue" class="winScreen__continueBtn"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="message-box_wrapper" data-name="containerMessageBox">
+				<div class="message-box" data-name="messageBox">
+					<div class="message-box__content">
+						<span class="message-box__content__label" id="ceremony_screen_rule"></span>
+					</div>
+					<div class="message-box__timer">
+						<span id="ceremony_screen_autoplay" class="message-box__timer__content"></span>
+						<span data-name="gameTimer" class="message-box__timer__value"></span>
+					</div>
+					<div class="message-box__congratulations">
+						<span class="message-box__congratulations__label" id="ceremony_screen_congratulations"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="win-panel__wrapper">
+			<div id="ultimate" class="win-panel-item win-panel-ultimate">
+				<div data-name="winAmountPlace" class="win-panel-item__amount"></div>
+				<div class="win-panel-item__coins-wrapper">
+					<div data-name="winCoinPlace" class="win-panel-item__coin-place"></div>
+					<div data-name="winCoinPlace" class="win-panel-item__coin-place"></div>
+					<div data-name="winCoinPlace" class="win-panel-item__coin-place"></div>
+				</div>
+			</div>
+
+			<div id="super" class="win-panel-item win-panel-super">
+				<div data-name="winAmountPlace" class="win-panel-item__amount"></div>
+				<div class="win-panel-item__coins-wrapper">
+					<div data-name="winCoinPlace" class="win-panel-item__coin-place"></div>
+					<div data-name="winCoinPlace" class="win-panel-item__coin-place"></div>
+					<div data-name="winCoinPlace" class="win-panel-item__coin-place"></div>
+				</div>
+			</div>
+
+			<div id="extra" class="win-panel-item win-panel-extra">
+				<div data-name="winAmountPlace" class="win-panel-item__amount"></div>
+				<div class="win-panel-item__coins-wrapper">
+					<div data-name="winCoinPlace" class="win-panel-item__coin-place"></div>
+					<div data-name="winCoinPlace" class="win-panel-item__coin-place"></div>
+					<div data-name="winCoinPlace" class="win-panel-item__coin-place"></div>
+				</div>
+			</div>
+
+			<div id="power" class="win-panel-item win-panel-power">
+				<div data-name="winAmountPlace" class="win-panel-item__amount"></div>
+				<div class="win-panel-item__coins-wrapper">
+					<div data-name="winCoinPlace" class="win-panel-item__coin-place"></div>
+					<div data-name="winCoinPlace" class="win-panel-item__coin-place"></div>
+					<div data-name="winCoinPlace" class="win-panel-item__coin-place"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- version -->
+	<div class="app-version" data-name="appVersion"></div>
+</div>
+
+<script type="text/javascript" src="scripts/jackpotDataService.js"></script>
+<script type="text/javascript" src="scripts/jackpotCoin.js"></script>
+<script type="text/javascript" src="scripts/jackpotMatrix.js"></script>
+<script type="text/javascript" src="scripts/countdownTimer.js"></script>
+<script type="text/javascript" src="scripts/jackpot.js"></script>
+
+</body>
