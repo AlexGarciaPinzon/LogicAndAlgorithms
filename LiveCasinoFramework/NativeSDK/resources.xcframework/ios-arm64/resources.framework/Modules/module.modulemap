@@ -1,6 +1,0 @@
-framework module resources {
-  umbrella header "resources.h"
-  export *
-
-  module * { export * }
-}

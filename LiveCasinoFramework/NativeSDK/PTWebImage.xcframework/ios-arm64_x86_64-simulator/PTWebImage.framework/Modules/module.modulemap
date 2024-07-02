@@ -1,6 +1,0 @@
-framework module PTWebImage {
-  umbrella header "PTWebImage.h"
-  export *
-
-  module * { export * }
-}

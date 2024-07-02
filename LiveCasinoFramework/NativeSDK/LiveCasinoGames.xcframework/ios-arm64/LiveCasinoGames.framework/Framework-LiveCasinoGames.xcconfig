@@ -1,3 +1,0 @@
-#include "Framework.xcconfig"
-
-FRAMEWORK_SEARCH_PATHS= $(Inherited) $(PROJECT_DIR)/LiveCasinoGames/Frameworks/
